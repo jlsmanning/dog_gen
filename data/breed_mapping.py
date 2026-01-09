@@ -1,0 +1,147 @@
+"""Mapping between ImageNet breed names and genetic dataset breed names."""
+
+DATA2GEN = {
+    "n02085620-Chihuahua": "Chihuahua",
+    "n02102040-English_springer": "English Springer Spaniel",
+    "n02107574-Greater_Swiss_Mountain_dog": "Greater Swiss Mountain Dog",
+    "n02095314-wire-haired_fox_terrier": "Wire Fox Terrier",
+    "n02088364-beagle": "Beagle",
+    "n02106166-Border_collie": "Border Collie",
+    "n02094258-Norwich_terrier": "Norwich Terrier",
+    "n02088466-bloodhound": "Bloodhound",
+    "n02113799-standard_poodle": "Poodle - Standard",
+    "n02101006-Gordon_setter": "Gordon Setter",
+    "n02102318-cocker_spaniel": None,
+    "n02091467-Norwegian_elkhound": "Norwegian Elkhound",
+    "n02093647-Bedlington_terrier": "Bedlington Terrier",
+    "n02110627-affenpinscher": None,
+    "n02110806-basenji": "Basenji",
+    "n02099267-flat-coated_retriever": "Flat-coated Retriever",
+    "n02105162-malinois": "Belgian Malenois",
+    "n02087046-toy_terrier": None,
+    "n02109047-Great_Dane": "Great Dane",
+    "n02104365-schipperke": "Schipperke",
+    "n02106382-Bouvier_des_Flandres": "Bouvier des Flandres",
+    "n02107683-Bernese_mountain_dog": "Bernese Mountain Dog",
+    "n02086646-Blenheim_spaniel": "Cavalier King Charles Spaniel",
+    "n02096294-Australian_terrier": "Australian Terrier",
+    "n02111277-Newfoundland": "Newfoundland",
+    "n02111889-Samoyed": "Samoyed",
+    "n02086910-papillon": "Papillon",
+    "n02090379-redbone": "Redbone Coonhound",
+    "n02106550-Rottweiler": "Rottweiler",
+    "n02102480-Sussex_spaniel": None,
+    "n02093428-American_Staffordshire_terrier": "American Staffordshire Terrier",
+    "n02087394-Rhodesian_ridgeback": "Rhodesian Ridgeback",
+    "n02116738-African_hunting_dog": None,
+    "n02096437-Dandie_Dinmont": None,
+    "n02091635-otterhound": "Otter Hound",
+    "n02112350-keeshond": "Keeshond",
+    "n02111500-Great_Pyrenees": "Great Pyrenees",
+    "n02105855-Shetland_sheepdog": "Shetland Sheepdog",
+    "n02102177-Welsh_springer_spaniel": None,
+    "n02099712-Labrador_retriever": "Labrador Retriever",
+    "n02109961-Eskimo_dog": "American Eskimo Dog",
+    "n02105641-Old_English_sheepdog": "Old English Sheepdog",
+    "n02104029-kuvasz": "Kuvasz",
+    "n02089973-English_foxhound": "Foxhound",
+    "n02113023-Pembroke": "Pembroke Welsh Corgi",
+    "n02094433-Yorkshire_terrier": "Yorkshire Terrier",
+    "n02095889-Sealyham_terrier": None,
+    "n02113624-toy_poodle": "Poodle - Toy",
+    "n02106030-collie": "Collie",
+    "n02107908-Appenzeller": None,
+    "n02090721-Irish_wolfhound": "Irish Wolfhound",
+    "n02097658-silky_terrier": "Silky Terrier",
+    "n02099429-curly-coated_retriever": "Curly Coated Retriever",
+    "n02086240-Shih-Tzu": "Shih Tzu",
+    "n02090622-borzoi": "Borzoi",
+    "n02101388-Brittany_spaniel": "Brittany",
+    "n02108915-French_bulldog": "French Bulldog",
+    "n02093859-Kerry_blue_terrier": "Kerry Blue Terrier",
+    "n02091032-Italian_greyhound": "Italian Greyhound",
+    "n02101556-clumber": None,
+    "n02096585-Boston_bull": "Boston Terrier",
+    "n02097209-standard_schnauzer": "Standard Schnauzer",
+    "n02098286-West_Highland_white_terrier": "West Highland White Terrier",
+    "n02108089-boxer": "Boxer",
+    "n02091831-Saluki": "Saluki",
+    "n02113186-Cardigan": "Cardigan Welsh Corgi",
+    "n02088094-Afghan_hound": "Afghan Hound",
+    "n02111129-Leonberg": "Leonberger",
+    "n02099601-golden_retriever": "Golden Retriever",
+    "n02102973-Irish_water_spaniel": "Irish Water Spaniel",
+    "n02108422-bull_mastiff": "Bulmastiff",
+    "n02089867-Walker_hound": None,
+    "n02100735-English_setter": "English Setter",
+    "n02099849-Chesapeake_Bay_retriever": None,
+    "n02091244-Ibizan_hound": "Ibizan Hound",
+    "n02113712-miniature_poodle": "Poodle - Miniature",
+    "n02108000-EntleBucher": None,
+    "n02091134-whippet": "Whippet",
+    "n02096177-cairn": "Cairn Terrier",
+    "n02110958-pug": "Pug Dog",
+    "n02093256-Staffordshire_bullterrier": "Stafforshire Bull Terrier",
+    "n02093991-Irish_terrier": "Irish Terrier",
+    "n02092002-Scottish_deerhound": "Scottish Deerhound",
+    "n02113978-Mexican_hairless": "Xoloitzcuintle",
+    "n02115641-dingo": None,
+    "n02105412-kelpie": "Kelpie",
+    "n02108551-Tibetan_mastiff": "Tibetan Mastiff",
+    "n02094114-Norfolk_terrier": "Norfolk Terrier",
+    "n02098105-soft-coated_wheaten_terrier": "Soft Coated Wheaten Terrier",
+    "n02112137-chow": "Chow Chow",
+    "n02109525-Saint_Bernard": "Saint Bernard",
+    "n02105505-komondor": "Komondor",
+    "n02106662-German_shepherd": "German Shepherd Dog",
+    "n02085936-Maltese_dog": "Maltese",
+    "n02112706-Brabancon_griffon": "Brussels Griffon",
+    "n02097047-miniature_schnauzer": "Miniature Schnauzer",
+    "n02095570-Lakeland_terrier": None,
+    "n02085782-Japanese_spaniel": "Japanese Chin",
+    "n02100583-vizsla": "Vizsla",
+    "n02093754-Border_terrier": "Border Terrier",
+    "n02107142-Doberman": "Doberman Pinscher",
+    "n02110063-malamute": "Alaskan Malamute",
+    "n02100877-Irish_setter": "Irish Setter",
+    "n02100236-German_short-haired_pointer": "German Shorthaired Pointer",
+    "n02097130-giant_schnauzer": "Giant Schnauzer",
+    "n02115913-dhole": None,
+    "n02105251-briard": "Briard",
+    "n02088238-basset": "Basset Hound",
+    "n02110185-Siberian_husky": "Siberian Husky",
+    "n02097298-Scotch_terrier": "Scottish Terrier",
+    "n02086079-Pekinese": "Pekingese",
+    "n02096051-Airedale": "Airedale Terrier",
+    "n02089078-black-and-tan_coonhound": None,
+    "n02097474-Tibetan_terrier": "Tibetan Terrier",
+    "n02092339-Weimaraner": "Weimaraner",
+    "n02107312-miniature_pinscher": "Miniature Pinscher",
+    "n02088632-bluetick": None,
+    "n02105056-groenendael": "Belgian Sheepdog",
+    "n02112018-Pomeranian": "Pomeranian",
+    "n02098413-Lhasa": "Lhasa Apso"
+}
+
+
+def get_genetic_breed_name(imagenet_name):
+    """
+    Get the genetic dataset breed name from ImageNet class name.
+    
+    Args:
+        imagenet_name: ImageNet class folder name (e.g., 'n02085620-Chihuahua')
+    
+    Returns:
+        Genetic breed name or None if no mapping exists
+    """
+    return DATA2GEN.get(imagenet_name)
+
+
+def has_genetic_data(imagenet_name):
+    """Check if an ImageNet breed has corresponding genetic data."""
+    return DATA2GEN.get(imagenet_name) is not None
+
+
+def get_valid_breeds():
+    """Get list of ImageNet breed names that have genetic data."""
+    return [k for k, v in DATA2GEN.items() if v is not None]

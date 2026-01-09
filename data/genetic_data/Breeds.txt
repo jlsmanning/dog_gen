@@ -1,0 +1,1355 @@
+SALU_13122	Saluki
+AZWK_15369	Azawakh
+SALU_22847	Saluki
+SALU_22848	Saluki
+AZWK_23339	Azawakh
+AZWK_23340	Azawakh
+AZWK_23341	Azawakh
+AZWK_23342	Azawakh
+SALU_23361	Saluki
+SALU_23362	Saluki
+SLOU_23547	Sloughi
+SALU_24003	Saluki
+SALU_24265	Saluki
+SLOU_24401	Sloughi
+SALU_24402	Saluki
+SALU_24403	Saluki
+SLOU_24407	Sloughi
+SLOU_24408	Sloughi
+SLOU_24409	Sloughi
+XIGO_24477	Xigou
+XIGO_24478	Xigou
+XIGO_24479	Xigou
+XIGO_24480	Xigou
+XIGO_24481	Xigou
+CANE_24509	Cane Corso
+CANE_24515	Cane Corso
+VPIN_24518	Volpino
+CANE_24519	Cane Corso
+CANE_24520	Cane Corso
+VPIN_24529	Volpino
+CPAT_24532	Cane Paratore
+VPIN_24536	Volpino
+MAAB_24539	Mastino Abruzzese
+CPAT_24540	Cane Paratore
+LVMD_24542	Levriero Meridionale
+LVMD_24544	Levriero Meridionale
+MAAB_24546	Mastino Abruzzese
+VPIN_24547	Volpino
+CANE_24548	Cane Corso
+TIBM_25310	Tibetan Mastiff
+TIBM_25311	Tibetan Mastiff
+TIBM_25312	Tibetan Mastiff
+TIBM_25313	Tibetan Mastiff
+TIBM_25314	Tibetan Mastiff
+CIRN_26277	Cirneco dell'Etna
+CIRN_26437	Cirneco dell'Etna
+CIRN_26438	Cirneco dell'Etna
+CIRN_26441	Cirneco dell'Etna
+CIRN_26635	Cirneco dell'Etna
+BOX_000997	Boxer
+SCOT_28349	Scottish Terrier
+FCR_024743	Flat-coated Retriever
+BULT_23661	Bull Terrier
+BULT_23667	Bull Terrier
+BULT_23674	Bull Terrier
+BULT_23678	Bull Terrier
+BULT_23630	Bull Terrier
+BULT_23631	Bull Terrier
+BULT_23632	Bull Terrier
+BULT_23638	Bull Terrier
+WHWT_12409	West Highland White Terrier
+WHWT_12704	West Highland White Terrier
+WHWT_12416	West Highland White Terrier
+SCOT_15078	Scottish Terrier
+WHWT_08382	West Highland White Terrier
+SCOT_07975	Scottish Terrier
+WHWT_08282	West Highland White Terrier
+SCOT_08381	Scottish Terrier
+SCOT_09020	Scottish Terrier
+WHWT_09291	West Highland White Terrier
+WHWT_09351	West Highland White Terrier
+WHWT_10027	West Highland White Terrier
+AUST_27161	Australian Terrier
+SSHP_26992	Shetland Sheepdog
+FCR_027007	Flat-coated Retriever
+STBD_27063	Saint Bernard
+DANE_27184	Great Dane
+FCR_027420	Flat-coated Retriever
+SAMO_27207	Samoyed
+SSHP_27126	Shetland Sheepdog
+BORZ_27195	Borzoi
+HAVA_27428	Havanese
+SSHP_27440	Shetland Sheepdog
+BSJI_27387	Basenji
+AFGH_27384	Afghan Hound
+STAF_27382	Stafforshire Bull Terrier
+BORZ_27197	Borzoi
+GOLD_27014	Golden Retriever
+SAMO_27205	Samoyed
+SSNZ_27424	Standard Schnauzer
+FCR_027273	Flat-coated Retriever
+BOX_027200	Boxer
+SSHP_27147	Shetland Sheepdog
+ACKR_27116	American Cocker Spaniel
+CHIH_27201	Chihuahua
+SSHP_27148	Shetland Sheepdog
+GOLD_26997	Golden Retriever
+SALU_27311	Saluki
+STBD_27062	Saint Bernard
+SSHP_27150	Shetland Sheepdog
+WHIP_27181	Whippet
+SPOO_27151	Poodle - Standard
+BSJI_27182	Basenji
+SALU_27314	Saluki
+SPOO_27218	Poodle - Standard
+GOLD_27004	Golden Retriever
+SALU_27317	Saluki
+GOLD_27005	Golden Retriever
+SPOO_27219	Poodle - Standard
+HAVA_27160	Havanese
+SALU_27301	Saluki
+BOX_027190	Boxer
+SALU_27302	Saluki
+STBD_27082	Saint Bernard
+FCR_027140	Flat-coated Retriever
+TPOO_27222	Poodle - Toy
+SPOO_27225	Poodle - Standard
+SALU_27308	Saluki
+FCR_027107	Flat-coated Retriever
+TURV_24635	Belgian Tervuren
+TURV_24636	Belgian Tervuren
+CHOW_13802	Chow Chow
+DANE_06610	Great Dane
+SCOT_08542	Scottish Terrier
+TPOO_10442	Poodle - Toy
+FCR_020576	Flat-coated Retriever
+CHIH_13131	Chihuahua
+DANE_26647	Great Dane
+BELS_22740	Belgian Sheepdog
+BELS_22734	Belgian Sheepdog
+BELS_22739	Belgian Sheepdog
+TURV_22772	Belgian Tervuren
+TURV_22781	Belgian Tervuren
+BELS_23989	Belgian Sheepdog
+BELS_28284	Belgian Sheepdog
+BELS_28296	Belgian Sheepdog
+BELS_28292	Belgian Sheepdog
+BELS_15646	Belgian Sheepdog
+BELS_24606	Belgian Sheepdog
+BORD_28461	Border Collie
+WHIP_28395	Whippet
+PAPI_28462	Papillon
+SALU_27932	Saluki
+CHOW_28874	Chow Chow
+PAPI_28460	Papillon
+CHOW_28885	Chow Chow
+WHIP_27374	Whippet
+FCR_028379	Flat-coated Retriever
+CHOW_28880	Chow Chow
+BORD_27579	Border Collie
+BRIA_27587	Briard
+TPOO_26331	Poodle - Toy
+WHIP_27375	Whippet
+FBUL_27595	French Bulldog
+CHOW_28871	Chow Chow
+ESSP_28464	English Springer Spaniel
+FBUL_27594	French Bulldog
+AKIT_01130	Akita
+AKIT_12342	Akita
+CHOW_28872	Chow Chow
+AKIT_01273	Akita
+BLDH_11432	Bloodhound
+BLDH_25393	Bloodhound
+BULM_26414	Bulmastiff
+DANE_13574	Great Dane
+MAST_02298	English Mastiff
+ROTT_27544	Rottweiler
+ROTT_15437	Rottweiler
+ROTT_01014	Rottweiler
+GPYR_08830	Great Pyrenees
+GPYR_08836	Great Pyrenees
+GPYR_12349	Great Pyrenees
+GPYR_27750	Great Pyrenees
+GPYR_27751	Great Pyrenees
+BSJI_04207	Basenji
+BSJI_04229	Basenji
+BSJI_20567	Basenji
+KUVZ_06693	Kuvasz
+AFGH_10624	Afghan Hound
+KUVZ_07318	Kuvasz
+BRIA_20217	Briard
+KUVZ_05341	Kuvasz
+TPOO_09064	Poodle - Toy
+DOBP_06079	Doberman Pinscher
+TPOO_09067	Poodle - Toy
+DOBP_06082	Doberman Pinscher
+TPOO_09079	Poodle - Toy
+AFGH_10622	Afghan Hound
+HAVA_07323	Havanese
+DOBP_06072	Doberman Pinscher
+HAVA_07423	Havanese
+DOBP_06043	Doberman Pinscher
+HAVA_07424	Havanese
+SAMO_14535	Samoyed
+AFGH_22932	Afghan Hound
+SAMO_23541	Samoyed
+BRIA_20022	Briard
+SAMO_24139	Samoyed
+BRIA_20026	Briard
+BORD_28463	Border Collie
+BSJI_12694	Basenji
+AFGH_13118	Afghan Hound
+HAVA_07533	Havanese
+AFGH_14486	Afghan Hound
+HAVA_07524	Havanese
+GSD_013191	German Shepherd Dog
+BRIA_14565	Briard
+TPOO_07578	Poodle - Toy
+GSD_014567	German Shepherd Dog
+TPOO_10439	Poodle - Toy
+GOLD_07286	Golden Retriever
+AFGH_10625	Afghan Hound
+TPOO_09069	Poodle - Toy
+BRIA_14502	Briard
+SAMO_00229	Samoyed
+CAIR_28466	Cairn Terrier
+FBUL_16073	French Bulldog
+CAIR_28521	Cairn Terrier
+FBUL_14473	French Bulldog
+CAIR_27172	Cairn Terrier
+FBUL_16072	French Bulldog
+CAIR_28517	Cairn Terrier
+PAPI_22902	Papillon
+FBUL_14477	French Bulldog
+PAPI_14935	Papillon
+FBUL_16071	French Bulldog
+PEMB_28457	Pembroke Welsh Corgi
+HAVA_07628	Havanese
+BORD_12713	Border Collie
+BORD_11125	Border Collie
+BRIA_20268	Briard
+BSJI_04212	Basenji
+BRIA_20212	Briard
+BSJI_04204	Basenji
+BRIA_20240	Briard
+GSD_004181	German Shepherd Dog
+GSD_004371	German Shepherd Dog
+COLL_00374	Collie
+PEMB_06630	Pembroke Welsh Corgi
+STAF_01361	Stafforshire Bull Terrier
+WHIP_09822	Whippet
+CAIR_13037	Cairn Terrier
+ESSP_04236	English Springer Spaniel
+IBIZ_01084	Ibizan Hound
+PEMB_06642	Pembroke Welsh Corgi
+COLL_00379	Collie
+PEMB_06631	Pembroke Welsh Corgi
+STAF_02991	Stafforshire Bull Terrier
+WHIP_09824	Whippet
+CAIR_13038	Cairn Terrier
+ESSP_04237	English Springer Spaniel
+IBIZ_01086	Ibizan Hound
+PAPI_06685	Papillon
+BOST_00950	Boston Terrier
+STAF_03137	Stafforshire Bull Terrier
+WHIP_09887	Whippet
+BORZ_13141	Borzoi
+ESSP_04238	English Springer Spaniel
+IBIZ_01128	Ibizan Hound
+PAPI_07262	Papillon
+BOST_00965	Boston Terrier
+CAIR_10026	Cairn Terrier
+STAF_03139	Stafforshire Bull Terrier
+BOST_05412	Boston Terrier
+IBIZ_01146	Ibizan Hound
+SAMO_14510	Samoyed
+BORZ_00978	Borzoi
+PEMB_06638	Pembroke Welsh Corgi
+STAF_03579	Stafforshire Bull Terrier
+BOST_08707	Boston Terrier
+BOST_05413	Boston Terrier
+IBIZ_01148	Ibizan Hound
+BORZ_00979	Borzoi
+BOX_012966	Boxer
+ESSP_04235	English Springer Spaniel
+PEMB_06640	Pembroke Welsh Corgi
+CAIR_09330	Cairn Terrier
+IBIZ_01316	Ibizan Hound
+PAPI_06205	Papillon
+PAPI_22901	Papillon
+SSHP_11617	Shetland Sheepdog
+SCOT_20523	Scottish Terrier
+SCOT_24321	Scottish Terrier
+SCOT_24497	Scottish Terrier
+SCOT_26418	Scottish Terrier
+ACKR_09007	American Cocker Spaniel
+PEMB_06636	Pembroke Welsh Corgi
+SAMO_14507	Samoyed
+AUST_07422	Australian Terrier
+AUST_08659	Australian Terrier
+BASS_10333	Basset Hound
+ACKR_12453	American Cocker Spaniel
+PEKE_23359	Pekingese
+STAF_03144	Stafforshire Bull Terrier
+AUST_07260	Australian Terrier
+ACKR_09030	American Cocker Spaniel
+LAB_011949	Labrador Retriever
+AUST_07720	Australian Terrier
+AUST_08660	Australian Terrier
+BASS_10335	Basset Hound
+BORZ_12818	Borzoi
+PAPI_23524	Papillon
+STAF_03163	Stafforshire Bull Terrier
+ACKR_09032	American Cocker Spaniel
+COLL_07296	Collie
+IBIZ_01088	Ibizan Hound
+LAB_012019	Labrador Retriever
+LAB_022113	Labrador Retriever
+AUST_07721	Australian Terrier
+AUST_08661	Australian Terrier
+BASS_10342	Basset Hound
+DACH_08257	Dachshund
+ESSP_04198	English Springer Spaniel
+LAB_012997	Labrador Retriever
+PEKE_24587	Pekingese
+COLL_07298	Collie
+IBIZ_01281	Ibizan Hound
+ITGY_08502	Italian Greyhound
+PEKE_22966	Pekingese
+SAMO_28936	Samoyed
+TPOO_09080	Poodle - Toy
+AUST_08662	Australian Terrier
+BASS_10350	Basset Hound
+BORZ_13142	Borzoi
+CAIR_07802	Cairn Terrier
+DACH_08260	Dachshund
+ESSP_04232	English Springer Spaniel
+ITGY_26972	Italian Greyhound
+BEAG_01324	Beagle
+BEAG_07907	Beagle
+BULM_28920	Bulmastiff
+ACKR_09110	American Cocker Spaniel
+ACKR_12451	American Cocker Spaniel
+COLL_07300	Collie
+ITGY_08506	Italian Greyhound
+PEKE_23347	Pekingese
+BASS_10351	Basset Hound
+BEAG_07862	Beagle
+BOST_08698	Boston Terrier
+DACH_08265	Dachshund
+ESSP_04239	English Springer Spaniel
+FBUL_13145	French Bulldog
+ITGY_27353	Italian Greyhound
+PEKE_27448	Pekingese
+AUST_08658	Australian Terrier
+BEAG_01327	Beagle
+ACKR_09991	American Cocker Spaniel
+ACKR_12452	American Cocker Spaniel
+COLL_07303	Collie
+DACH_08241	Dachshund
+PEKE_23354	Pekingese
+BEAG_07870	Beagle
+BOST_08704	Boston Terrier
+DACH_08267	Dachshund
+ESSP_13183	English Springer Spaniel
+ITGY_06386	Italian Greyhound
+LAB_011121	Labrador Retriever
+PEKE_22961	Pekingese
+MAST_15585	English Mastiff
+AKIT_12755	Akita
+AKIT_01101	Akita
+ROTT_13005	Rottweiler
+BLDH_11437	Bloodhound
+GPYR_06369	Great Pyrenees
+KUVZ_14517	Kuvasz
+AKIT_01132	Akita
+MAST_05512	English Mastiff
+AKIT_12692	Akita
+MAST_06392	English Mastiff
+MAST_24147	English Mastiff
+STBD_06460	Saint Bernard
+BULM_01126	Bulmastiff
+IWOF_08486	Irish Wolfhound
+BULM_01113	Bulmastiff
+NEWF_00277	Newfoundland
+STBD_12749	Saint Bernard
+KUVZ_07261	Kuvasz
+KUVZ_07525	Kuvasz
+STBD_12748	Saint Bernard
+KUVZ_07526	Kuvasz
+STBD_12750	Saint Bernard
+AKIT_01131	Akita
+IWOF_05908	Irish Wolfhound
+BLDH_11431	Bloodhound
+BLDH_11438	Bloodhound
+BULM_01107	Bulmastiff
+BULM_14500	Bulmastiff
+DANE_12993	Great Dane
+DANE_06694	Great Dane
+DANE_06695	Great Dane
+IWOF_07534	Irish Wolfhound
+BULM_01110	Bulmastiff
+IWOF_07590	Irish Wolfhound
+BULM_01116	Bulmastiff
+MAST_00991	English Mastiff
+NEWF_00018	Newfoundland
+NEWF_21473	Newfoundland
+NEWF_00057	Newfoundland
+STBD_12747	Saint Bernard
+KUVZ_06605	Kuvasz
+GPYR_08840	Great Pyrenees
+KUVZ_07616	Kuvasz
+KUVZ_07774	Kuvasz
+BULM_01112	Bulmastiff
+DANE_12992	Great Dane
+GPYR_04168	Great Pyrenees
+DANE_15290	Great Dane
+STBD_06463	Saint Bernard
+BLDH_11433	Bloodhound
+BLDH_01186	Bloodhound
+GPYR_04971	Great Pyrenees
+GPYR_08839	Great Pyrenees
+BLDH_11436	Bloodhound
+DANE_21529	Great Dane
+AKIT_01134	Akita
+AKIT_01278	Akita
+SSHP_28479	Shetland Sheepdog
+WHIP_28396	Whippet
+GSD_028486	German Shepherd Dog
+HAVA_27929	Havanese
+HAVA_27930	Havanese
+SALU_28391	Saluki
+SALU_27915	Saluki
+SPOO_28536	Poodle - Standard
+BLDH_28398	Bloodhound
+CAIR_27169	Cairn Terrier
+COLL_28507	Collie
+FBUL_28500	French Bulldog
+SALU_28384	Saluki
+SSHP_28528	Shetland Sheepdog
+AFGH_27567	Afghan Hound
+AFGH_27918	Afghan Hound
+BORZ_27924	Borzoi
+AFGH_27917	Afghan Hound
+BORZ_28388	Borzoi
+BOX_027928	Boxer
+BOX_028501	Boxer
+BOX_028503	Boxer
+BSJI_28497	Basenji
+COLL_28482	Collie
+ITGY_28389	Italian Greyhound
+ITGY_28393	Italian Greyhound
+ITGY_28390	Italian Greyhound
+ITGY_28387	Italian Greyhound
+SAMO_27927	Samoyed
+SSHP_28480	Shetland Sheepdog
+FBUL_07304	French Bulldog
+BOST_12341	Boston Terrier
+PUG_001030	Pug Dog
+BOX_001177	Boxer
+BULM_01125	Bulmastiff
+STAF_03145	Stafforshire Bull Terrier
+BULT_13291	Bull Terrier
+CHOW_15628	Chow Chow
+CHOW_15630	Chow Chow
+CHOW_22802	Chow Chow
+CHOW_23372	Chow Chow
+MAST_21270	English Mastiff
+PEKE_23356	Pekingese
+MAST_01016	English Mastiff
+MAST_02297	English Mastiff
+MAST_02299	English Mastiff
+BULT_23695	Bull Terrier
+FCR_012026	Flat-coated Retriever
+FCR_010697	Flat-coated Retriever
+ROTT_21895	Rottweiler
+BELS_27485	Belgian Sheepdog
+STBD_01075	Saint Bernard
+TURV_27484	Belgian Tervuren
+ACKR_11414	American Cocker Spaniel
+IWOF_21534	Irish Wolfhound
+WHWT_10041	West Highland White Terrier
+BLDH_25394	Bloodhound
+WHWT_10632	West Highland White Terrier
+BASS_10355	Basset Hound
+BASS_10340	Basset Hound
+BASS_10366	Basset Hound
+BASS_10375	Basset Hound
+BASS_10372	Basset Hound
+BORZ_12879	Borzoi
+BOST_08700	Boston Terrier
+BOST_08701	Boston Terrier
+BOX_001179	Boxer
+BOX_027749	Boxer
+BRIA_07780	Briard
+BULD_14474	Bulldog
+BULD_14476	Bulldog
+BULD_14499	Bulldog
+BULD_03556	Bulldog
+CARD_07670	Cardigan Welsh Corgi
+CARD_09283	Cardigan Welsh Corgi
+CARD_06200	Cardigan Welsh Corgi
+CARD_06199	Cardigan Welsh Corgi
+CARD_07328	Cardigan Welsh Corgi
+CARD_07654	Cardigan Welsh Corgi
+CARD_07666	Cardigan Welsh Corgi
+CARD_07976	Cardigan Welsh Corgi
+CARD_09284	Cardigan Welsh Corgi
+CARD_09285	Cardigan Welsh Corgi
+CHIH_01204	Chihuahua
+CHIH_01202	Chihuahua
+CHIH_01205	Chihuahua
+CHIH_01206	Chihuahua
+CHIH_13129	Chihuahua
+CHIH_13132	Chihuahua
+CHIH_13167	Chihuahua
+CHIH_14923	Chihuahua
+COLL_11451	Collie
+COLL_11454	Collie
+ESSP_13184	English Springer Spaniel
+GREY_12320	Greyhound
+GREY_13678	Greyhound
+GREY_14237	Greyhound
+GREY_14239	Greyhound
+GREY_14238	Greyhound
+GSNZ_13262	Giant Schnauzer
+GSNZ_13267	Giant Schnauzer
+GSNZ_13261	Giant Schnauzer
+GSNZ_13273	Giant Schnauzer
+GSNZ_12317	Giant Schnauzer
+GSNZ_13553	Giant Schnauzer
+GSNZ_16154	Giant Schnauzer
+GSNZ_13276	Giant Schnauzer
+GSNZ_13235	Giant Schnauzer
+GSNZ_07996	Giant Schnauzer
+IBIZ_01228	Ibizan Hound
+IBIZ_01230	Ibizan Hound
+ITGY_15288	Italian Greyhound
+PAPI_27882	Papillon
+PEKE_23363	Pekingese
+PEKE_22957	Pekingese
+PUG_001104	Pug Dog
+PUG_001018	Pug Dog
+PUG_001183	Pug Dog
+PUG_001021	Pug Dog
+PUG_001022	Pug Dog
+PUG_001025	Pug Dog
+PUG_001026	Pug Dog
+PUG_001027	Pug Dog
+PUG_001069	Pug Dog
+SSNZ_03180	Standard Schnauzer
+SSNZ_11493	Standard Schnauzer
+SSNZ_11494	Standard Schnauzer
+SSNZ_11495	Standard Schnauzer
+SSNZ_11496	Standard Schnauzer
+SSNZ_11497	Standard Schnauzer
+SSNZ_03181	Standard Schnauzer
+SSNZ_07420	Standard Schnauzer
+SSNZ_11491	Standard Schnauzer
+WHIP_09932	Whippet
+WHIP_09886	Whippet
+PEMB_06681	Pembroke Welsh Corgi
+WOLF_24314	Wolf
+WOLF_24315	Wolf
+GDJK_24316	Golden Jackal
+GDJK_24589	Golden Jackal
+WOLF_24888	Wolf
+WOLF_24889	Wolf
+WOLF_24890	Wolf
+WOLF_24891	Wolf
+WOLF_24892	Wolf
+AMAL_14509	Alaskan Malamute
+AMAL_27127	Alaskan Malamute
+AMAL_29540	Alaskan Malamute
+AMAL_29541	Alaskan Malamute
+AMAL_29542	Alaskan Malamute
+AMAL_29543	Alaskan Malamute
+AMAL_29544	Alaskan Malamute
+AMAL_29545	Alaskan Malamute
+AMAL_29546	Alaskan Malamute
+AMAL_29547	Alaskan Malamute
+AUSS_11425	Australian Shepherd
+AUSS_11428	Australian Shepherd
+AUSS_11429	Australian Shepherd
+AUSS_13157	Australian Shepherd
+AUSS_27104	Australian Shepherd
+AUSS_27573	Australian Shepherd
+AUSS_28454	Australian Shepherd
+AUSS_28465	Australian Shepherd
+AUSS_28472	Australian Shepherd
+AUSS_07314	Australian Shepherd
+BMD_004667	Bernese Mountain Dog
+BMD_004679	Bernese Mountain Dog
+BMD_004687	Bernese Mountain Dog
+BMD_000972	Bernese Mountain Dog
+BMD_000983	Bernese Mountain Dog
+BRIT_12727	Brittany
+BRIT_13150	Brittany
+BRIT_27117	Brittany
+BRIT_27137	Brittany
+BRIT_28919	Brittany
+BSJI_04208	Basenji
+BULD_03589	Bulldog
+CKCS_13193	Cavalier King Charles Spaniel
+CKCS_14520	Cavalier King Charles Spaniel
+CKCS_14911	Cavalier King Charles Spaniel
+CKCS_14912	Cavalier King Charles Spaniel
+CKCS_14913	Cavalier King Charles Spaniel
+CKCS_14916	Cavalier King Charles Spaniel
+CKCS_15286	Cavalier King Charles Spaniel
+CKCS_27121	Cavalier King Charles Spaniel
+CKCS_07279	Cavalier King Charles Spaniel
+CKCS_00952	Cavalier King Charles Spaniel
+DEER_28385	Scottish Deerhound
+DEER_29531	Scottish Deerhound
+DEER_29532	Scottish Deerhound
+DEER_29535	Scottish Deerhound
+DEER_29536	Scottish Deerhound
+DEER_29537	Scottish Deerhound
+DEER_29538	Scottish Deerhound
+DEER_29539	Scottish Deerhound
+DEER_00569	Scottish Deerhound
+DEER_00571	Scottish Deerhound
+DOBP_01031	Doberman Pinscher
+ECKR_27591	English Cocker Spaniel
+ECKR_28369	English Cocker Spaniel
+ECKR_28380	English Cocker Spaniel
+ECKR_28473	English Cocker Spaniel
+ECKR_28475	English Cocker Spaniel
+GLEN_04246	Glen of Imaal Terrier
+GLEN_04249	Glen of Imaal Terrier
+GLEN_04250	Glen of Imaal Terrier
+GLEN_04253	Glen of Imaal Terrier
+GLEN_04257	Glen of Imaal Terrier
+GLEN_04261	Glen of Imaal Terrier
+GLEN_04262	Glen of Imaal Terrier
+GLEN_04263	Glen of Imaal Terrier
+GLEN_04266	Glen of Imaal Terrier
+GSHP_13151	German Shorthaired Pointer
+GSHP_15392	German Shorthaired Pointer
+GSHP_15394	German Shorthaired Pointer
+GSHP_27023	German Shorthaired Pointer
+GSHP_28771	German Shorthaired Pointer
+GSHP_29548	German Shorthaired Pointer
+GSHP_29549	German Shorthaired Pointer
+GSHP_29550	German Shorthaired Pointer
+GSHP_29551	German Shorthaired Pointer
+GSHP_03069	German Shorthaired Pointer
+HUSK_11480	Siberian Husky
+HUSK_11487	Siberian Husky
+HUSK_11490	Siberian Husky
+HUSK_14529	Siberian Husky
+HUSK_15872	Siberian Husky
+HUSK_15873	Siberian Husky
+HUSK_28487	Siberian Husky
+HUSK_28925	Siberian Husky
+HUSK_28926	Siberian Husky
+HUSK_29464	Siberian Husky
+IWSP_27029	Irish Water Spaniel
+IWSP_27438	Irish Water Spaniel
+IWSP_27560	Irish Water Spaniel
+IWSP_28372	Irish Water Spaniel
+IWSP_28373	Irish Water Spaniel
+IWSP_07522	Irish Water Spaniel
+IWSP_07556	Irish Water Spaniel
+IWSP_07569	Irish Water Spaniel
+IWSP_07575	Irish Water Spaniel
+IWSP_07761	Irish Water Spaniel
+LEON_15580	Leonberger
+LEON_20042	Leonberger
+LEON_20045	Leonberger
+LEON_20046	Leonberger
+LEON_20093	Leonberger
+LEON_20115	Leonberger
+LEON_20260	Leonberger
+LEON_02215	Leonberger
+LEON_26916	Leonberger
+LEON_29552	Leonberger
+MBLT_11463	Miniature Bull Terrier
+MBLT_11464	Miniature Bull Terrier
+MBLT_11465	Miniature Bull Terrier
+MBLT_11467	Miniature Bull Terrier
+MBLT_11468	Miniature Bull Terrier
+MBLT_11469	Miniature Bull Terrier
+MBLT_11470	Miniature Bull Terrier
+MBLT_11472	Miniature Bull Terrier
+MBLT_11473	Miniature Bull Terrier
+MBLT_11474	Miniature Bull Terrier
+MPIN_12866	Miniature Pinscher
+MPIN_12867	Miniature Pinscher
+MPIN_12869	Miniature Pinscher
+MPIN_12870	Miniature Pinscher
+MPIN_12872	Miniature Pinscher
+MPIN_12873	Miniature Pinscher
+MPIN_12874	Miniature Pinscher
+MPIN_12876	Miniature Pinscher
+MPIN_12877	Miniature Pinscher
+MPIN_13229	Miniature Pinscher
+MPOO_27223	Poodle - Miniature
+MPOO_27535	Poodle - Miniature
+MPOO_28469	Poodle - Miniature
+MPOO_28478	Poodle - Miniature
+MPOO_28524	Poodle - Miniature
+MPOO_28525	Poodle - Miniature
+MPOO_28526	Poodle - Miniature
+MPOO_28535	Poodle - Miniature
+MPOO_28538	Poodle - Miniature
+MPOO_28542	Poodle - Miniature
+MSNZ_12928	Miniature Schnauzer
+MSNZ_12929	Miniature Schnauzer
+MSNZ_12930	Miniature Schnauzer
+MSNZ_24656	Miniature Schnauzer
+MSNZ_24692	Miniature Schnauzer
+MSNZ_24693	Miniature Schnauzer
+MSNZ_25440	Miniature Schnauzer
+MSNZ_07530	Miniature Schnauzer
+MSNZ_07671	Miniature Schnauzer
+MSNZ_07672	Miniature Schnauzer
+NEWF_07312	Newfoundland
+NOWT_22253	Norwich Terrier
+NOWT_24881	Norwich Terrier
+NOWT_24883	Norwich Terrier
+NOWT_27060	Norwich Terrier
+NOWT_27359	Norwich Terrier
+NOWT_27922	Norwich Terrier
+NOWT_04657	Norwich Terrier
+NOWT_07800	Norwich Terrier
+NOWT_07973	Norwich Terrier
+NOWT_08281	Norwich Terrier
+OES_005941	Old English Sheepdog
+OES_005944	Old English Sheepdog
+OES_005951	Old English Sheepdog
+OES_005954	Old English Sheepdog
+OES_005957	Old English Sheepdog
+OES_005966	Old English Sheepdog
+OES_005984	Old English Sheepdog
+OES_005990	Old English Sheepdog
+OES_006003	Old English Sheepdog
+OES_006014	Old English Sheepdog
+PBGV_11478	Petit Basset Greffon Vendeen
+PBGV_12353	Petit Basset Greffon Vendeen
+PBGV_14506	Petit Basset Greffon Vendeen
+PBGV_07322	Petit Basset Greffon Vendeen
+PBGV_09393	Petit Basset Greffon Vendeen
+PBGV_09400	Petit Basset Greffon Vendeen
+PBGV_09411	Petit Basset Greffon Vendeen
+PBGV_09415	Petit Basset Greffon Vendeen
+PBGV_09419	Petit Basset Greffon Vendeen
+PBGV_09420	Petit Basset Greffon Vendeen
+PEMB_07293	Pembroke Welsh Corgi
+PEMB_09017	Pembroke Welsh Corgi
+POM_001235	Pomeranian
+POM_001271	Pomeranian
+POM_012763	Pomeranian
+POM_006410	Pomeranian
+POM_006421	Pomeranian
+POM_006433	Pomeranian
+POM_006435	Pomeranian
+POM_008520	Pomeranian
+POM_008521	Pomeranian
+POM_008522	Pomeranian
+PTWD_27192	Portuguese Water Dog
+PTWD_05676	Portuguese Water Dog
+PTWD_05827	Portuguese Water Dog
+PTWD_05838	Portuguese Water Dog
+PTWD_05862	Portuguese Water Dog
+PTWD_05874	Portuguese Water Dog
+PTWD_06145	Portuguese Water Dog
+PTWD_06247	Portuguese Water Dog
+PTWD_06621	Portuguese Water Dog
+PTWD_09118	Portuguese Water Dog
+SHAR_11448	Chinese Shar-pei
+SHAR_11449	Chinese Shar-pei
+SHAR_13168	Chinese Shar-pei
+SHAR_28940	Chinese Shar-pei
+SHAR_07995	Chinese Shar-pei
+SHIH_03166	Shih Tzu
+SHIH_03191	Shih Tzu
+SHIH_03576	Shih Tzu
+SHIH_03590	Shih Tzu
+SHIH_03591	Shih Tzu
+SHIH_03593	Shih Tzu
+SHIH_03613	Shih Tzu
+SHIH_03614	Shih Tzu
+SHIH_03615	Shih Tzu
+SHIH_03616	Shih Tzu
+STAF_02887	Stafforshire Bull Terrier
+YORK_29553	Yorkshire Terrier
+YORK_29556	Yorkshire Terrier
+YORK_07572	Yorkshire Terrier
+YORK_08997	Yorkshire Terrier
+YORK_09000	Yorkshire Terrier
+ANAT_07063	Anatolian Shepherd
+ANAT_07334	Anatolian Shepherd
+ANAT_07680	Anatolian Shepherd
+ANAT_07584	Anatolian Shepherd
+ANAT_07069	Anatolian Shepherd
+ANAT_07066	Anatolian Shepherd
+BRTR_15422	Black Russian Terrier
+BRTR_15419	Black Russian Terrier
+BRTR_15424	Black Russian Terrier
+BRTR_15420	Black Russian Terrier
+DDBX_25487	Dogue de Bordeaux
+DDBX_24933	Dogue de Bordeaux
+DDBX_24931	Dogue de Bordeaux
+DDBX_24936	Dogue de Bordeaux
+DDBX_24934	Dogue de Bordeaux
+DDBX_24930	Dogue de Bordeaux
+GSMD_12332	Greater Swiss Mountain Dog
+GSMD_21523	Greater Swiss Mountain Dog
+GSMD_21528	Greater Swiss Mountain Dog
+GSMD_25392	Greater Swiss Mountain Dog
+GSMD_28923	Greater Swiss Mountain Dog
+GSMD_28924	Greater Swiss Mountain Dog
+NEAP_23551	Neapolitan Mastiff
+NEAP_23567	Neapolitan Mastiff
+NEAP_23550	Neapolitan Mastiff
+NEAP_23564	Neapolitan Mastiff
+NEAP_23554	Neapolitan Mastiff
+NEAP_23555	Neapolitan Mastiff
+TIBM_06477	Tibetan Mastiff
+TIBM_06478	Tibetan Mastiff
+TIBM_06479	Tibetan Mastiff
+TIBM_06481	Tibetan Mastiff
+TIBM_06482	Tibetan Mastiff
+Wei_0GT407	Weimaraner
+Wei_0GT408	Weimaraner
+Wei_0GT409	Weimaraner
+Wei_0GT410	Weimaraner
+Wei_0GT411	Weimaraner
+Wei_0GT412	Weimaraner
+Wei_0GT413	Weimaraner
+Wei_0GT414	Weimaraner
+Wei_0GT416	Weimaraner
+Wei_0GT417	Weimaraner
+Sci_LU1455	Schipperke
+Sci_LU1457	Schipperke
+Sci_LU1458	Schipperke
+Sci_LU1461	Schipperke
+Sci_LU1464	Schipperke
+Sci_LU1466	Schipperke
+Sci_LU1468	Schipperke
+Sci_LU1469	Schipperke
+Sci_LU1471	Schipperke
+Sci_LU1473	Schipperke
+NFd_LU1385	Newfoundland
+NFd_LU1386	Newfoundland
+NFd_LU1387	Newfoundland
+NFd_LU1388	Newfoundland
+NFd_LU1390	Newfoundland
+GoS_0LU606	Gordon Setter
+GoS_0LU607	Gordon Setter
+GoS_0LU610	Gordon Setter
+GoS_0LU613	Gordon Setter
+GoS_0LU615	Gordon Setter
+GoS_0LU616	Gordon Setter
+GoS_0LU619	Gordon Setter
+GoS_0LU625	Gordon Setter
+Dob_0LU148	Doberman Pinscher
+Dob_0LU149	Doberman Pinscher
+Dob_0LU150	Doberman Pinscher
+Dob_0LU151	Doberman Pinscher
+Dob_0LU152	Doberman Pinscher
+BoT_00LU62	Border Terrier
+BoT_00LU63	Border Terrier
+BoT_00LU64	Border Terrier
+BoT_00LU65	Border Terrier
+BoT_00LU66	Border Terrier
+BoT_00LU67	Border Terrier
+NSD_0GT289	Nova Scotia Duck Tolling Retriever
+NSD_0GT291	Nova Scotia Duck Tolling Retriever
+NSD_0GT292	Nova Scotia Duck Tolling Retriever
+NSD_0GT293	Nova Scotia Duck Tolling Retriever
+NSD_0GT294	Nova Scotia Duck Tolling Retriever
+NSD_0GT295	Nova Scotia Duck Tolling Retriever
+NSD_0GT296	Nova Scotia Duck Tolling Retriever
+BoC_00GT56	Border Collie
+BoC_00GT62	Border Collie
+BoC_00GT64	Border Collie
+BoC_00GT65	Border Collie
+BoC_00GT66	Border Collie
+LRe_0GT269	Labrador Retriever
+LRe_0GT270	Labrador Retriever
+LRe_0GT271	Labrador Retriever
+LRe_0GT272	Labrador Retriever
+LRe_0GT273	Labrador Retriever
+GRe_0GT212	Golden Retriever
+GRe_0GT217	Golden Retriever
+GRe_0GT218	Golden Retriever
+GRe_0GT219	Golden Retriever
+GRe_0GT220	Golden Retriever
+CoS_00GT91	English Cocker Spaniel
+CoS_00GT92	English Cocker Spaniel
+CoS_00GT93	English Cocker Spaniel
+CoS_00GT94	English Cocker Spaniel
+CoS_00GT95	English Cocker Spaniel
+JRT_0GT250	Jack Russell Terrier
+JRT_0GT251	Jack Russell Terrier
+JRT_0GT253	Jack Russell Terrier
+JRT_0GT254	Jack Russell Terrier
+JRT_0GT255	Jack Russell Terrier
+JRT_0GT256	Jack Russell Terrier
+JRT_0GT257	Jack Russell Terrier
+JRT_0GT258	Jack Russell Terrier
+JRT_0GT260	Jack Russell Terrier
+JRT_0GT261	Jack Russell Terrier
+EBD_0GT153	Bulldog
+EBD_0GT154	Bulldog
+EBD_0GT155	Bulldog
+EBD_0GT156	Bulldog
+EBD_0GT157	Bulldog
+TYo_0GT393	Yorkshire Terrier
+TYo_0GT394	Yorkshire Terrier
+TYo_0GT395	Yorkshire Terrier
+TYo_0GT396	Yorkshire Terrier
+TYo_0GT397	Yorkshire Terrier
+StP_0GT375	Poodle - Standard
+StP_0GT376	Poodle - Standard
+StP_0GT377	Poodle - Standard
+StP_0GT378	Poodle - Standard
+StP_0GT379	Poodle - Standard
+Rtw_0GT351	Rottweiler
+Rtw_0GT352	Rottweiler
+Rtw_0GT353	Rottweiler
+Rtw_0GT354	Rottweiler
+Rtw_0GT355	Rottweiler
+GSl_0GT226	Greenland Sledge Dog
+GSl_0GT227	Greenland Sledge Dog
+GSl_0GT228	Greenland Sledge Dog
+GSl_0GT229	Greenland Sledge Dog
+GSl_0GT230	Greenland Sledge Dog
+GSl_0GT231	Greenland Sledge Dog
+GSl_0GT232	Greenland Sledge Dog
+GSl_0GT233	Greenland Sledge Dog
+GSl_0GT234	Greenland Sledge Dog
+GSl_0GT235	Greenland Sledge Dog
+GSh_0GT205	German Shepherd Dog
+GSh_0GT206	German Shepherd Dog
+GSh_0GT207	German Shepherd Dog
+GSh_0GT208	German Shepherd Dog
+GSh_0GT209	German Shepherd Dog
+FSp_0GT185	Finish Spitz
+FSp_0GT186	Finish Spitz
+FSp_0GT187	Finish Spitz
+FSp_0GT188	Finish Spitz
+FSp_0GT189	Finish Spitz
+FSp_0GT190	Finish Spitz
+FSp_0GT191	Finish Spitz
+FSp_0GT192	Finish Spitz
+FSp_0GT193	Finish Spitz
+FSp_0GT194	Finish Spitz
+Eur_0GT173	Eurasier
+Eur_0GT174	Eurasier
+Eur_0GT175	Eurasier
+Eur_0GT176	Eurasier
+Eur_0GT177	Eurasier
+Eur_0GT178	Eurasier
+Eur_0GT179	Eurasier
+Eur_0GT180	Eurasier
+Eur_0GT181	Eurasier
+Eur_0GT182	Eurasier
+ESt_0GT161	English Setter
+ESt_0GT162	English Setter
+ESt_0GT163	English Setter
+ESt_0GT164	English Setter
+ESt_0GT165	English Setter
+ESt_0GT166	English Setter
+ESt_0GT167	English Setter
+ESt_0GT168	English Setter
+ESt_0GT169	English Setter
+ESt_0GT170	English Setter
+Elk_0GT129	Norwegian Elkhound
+Elk_0GT130	Norwegian Elkhound
+Elk_0GT131	Norwegian Elkhound
+Elk_0GT132	Norwegian Elkhound
+Elk_0GT133	Norwegian Elkhound
+Elk_0GT134	Norwegian Elkhound
+Elk_0GT135	Norwegian Elkhound
+Elk_0GT136	Norwegian Elkhound
+Elk_0GT137	Norwegian Elkhound
+Dac_0GT114	Dachshund
+Dac_0GT115	Dachshund
+Dac_0GT116	Dachshund
+Dac_0GT117	Dachshund
+Dac_0GT118	Dachshund
+BrS_00GT81	Brittany
+BrS_00GT82	Brittany
+BrS_00GT83	Brittany
+BrS_00GT84	Brittany
+BrS_00GT85	Brittany
+BMD_00GT33	Bernese Mountain Dog
+BMD_00GT34	Bernese Mountain Dog
+BMD_00GT35	Bernese Mountain Dog
+BMD_00GT36	Bernese Mountain Dog
+BMD_00GT37	Bernese Mountain Dog
+BeT_00GT18	Belgian Tervuren
+BeT_00GT22	Belgian Tervuren
+BeT_00GT23	Belgian Tervuren
+BeT_00GT24	Belgian Tervuren
+BeT_00GT25	Belgian Tervuren
+ShP_0GT364	Chinese Shar-pei
+ShP_0GT365	Chinese Shar-pei
+ShP_0GT366	Chinese Shar-pei
+ShP_0GT367	Chinese Shar-pei
+ShP_0GT368	Chinese Shar-pei
+IrW_LU1215	Irish Wolfhound
+IrW_LU1216	Irish Wolfhound
+IrW_LU1217	Irish Wolfhound
+IrW_LU1218	Irish Wolfhound
+IrW_LU1219	Irish Wolfhound
+Gry_0GT244	Greyhound
+Gry_0GT245	Greyhound
+Gry_0GT246	Greyhound
+Gry_0GT247	Greyhound
+Gry_0GT248	Greyhound
+Bgl_000GT5	Beagle
+Bgl_000GT6	Beagle
+Bgl_000GT7	Beagle
+Bgl_000GT8	Beagle
+Bgl_000GT9	Beagle
+WHPG_27039	Wirehaired Pointing Griffon
+WHPG_27001	Wirehaired Pointing Griffon
+WHPG_27012	Wirehaired Pointing Griffon
+WHPG_27016	Wirehaired Pointing Griffon
+WHPG_27013	Wirehaired Pointing Griffon
+WHPG_27017	Wirehaired Pointing Griffon
+VIZS_27073	Vizsla
+VIZS_26998	Vizsla
+VIZS_27015	Vizsla
+VIZS_27571	Vizsla
+VIZS_28366	Vizsla
+VIZS_28367	Vizsla
+VIZS_27051	Vizsla
+LMUN_27292	Large Munsterlander
+LMUN_27295	Large Munsterlander
+LMUN_27296	Large Munsterlander
+KEES_22830	Keeshond
+KEES_24628	Keeshond
+KEES_24629	Keeshond
+KEES_24630	Keeshond
+KEES_24631	Keeshond
+KEES_24633	Keeshond
+KEES_27433	Keeshond
+KEES_28498	Keeshond
+KEES_29631	Keeshond
+KEES_29630	Keeshond
+ISET_27002	Irish Setter
+ISET_27022	Irish Setter
+ISET_27450	Irish Setter
+IRIT_27165	Irish Terrier
+IRIT_27166	Irish Terrier
+IRIT_27176	Irish Terrier
+IRIT_27162	Irish Terrier
+IRIT_27163	Irish Terrier
+IRIT_27164	Irish Terrier
+IRIT_27175	Irish Terrier
+GSET_26995	Gordon Setter
+GSET_28456	Gordon Setter
+FIEL_27194	Field Spaniel
+FIEL_27191	Field Spaniel
+FIEL_27554	Field Spaniel
+FIEL_28377	Field Spaniel
+DALM_27381	Dalmatian
+DALM_13301	Dalmatian
+DALM_27075	Dalmatian
+DALM_27076	Dalmatian
+CCRT_27282	Curly Coated Retriever
+CCRT_27018	Curly Coated Retriever
+CCRT_27336	Curly Coated Retriever
+CCRT_27031	Curly Coated Retriever
+CANE_27352	Cane Corso
+CANE_27048	Cane Corso
+CANE_28921	Cane Corso
+CANE_28922	Cane Corso
+BORT_27171	Border Terrier
+BORT_27568	Border Terrier
+BORT_25438	Border Terrier
+BORT_08386	Border Terrier
+BEDT_27105	Bedlington Terrier
+BEDT_28909	Bedlington Terrier
+BEDT_28915	Bedlington Terrier
+BEDT_28916	Bedlington Terrier
+AHRT_01079	American Hairless Terrier
+AHRT_01081	American Hairless Terrier
+AHRT_01120	American Hairless Terrier
+AHRT_01122	American Hairless Terrier
+AHRT_25647	American Hairless Terrier
+AHRT_24735	American Hairless Terrier
+AHRT_01080	American Hairless Terrier
+AHRT_01117	American Hairless Terrier
+AHRT_01121	American Hairless Terrier
+AHRT_01123	American Hairless Terrier
+FOXH_23056	Foxhound
+FOXH_23074	Foxhound
+FOXH_23078	Foxhound
+FOXH_23096	Foxhound
+FOXH_23094	Foxhound
+FOXH_23089	Foxhound
+FOXH_23077	Foxhound
+FOXH_23110	Foxhound
+FOXH_23075	Foxhound
+FOXH_23080	Foxhound
+MALT_27447	Maltese
+MALT_27446	Maltese
+NELK_28504	Norwegian Elkhound
+NSDT_26994	Nova Scotia Duck Tolling Retriever
+NSDT_29586	Nova Scotia Duck Tolling Retriever
+NSDT_29588	Nova Scotia Duck Tolling Retriever
+PARS_27058	Parsons Russell Terrier
+PARS_27079	Parsons Russell Terrier
+PULI_27429	Puli
+PULI_27129	Puli
+RATT_28508	Rat Terrier
+RATT_28509	Rat Terrier
+AMST_28499	American Staffordshire Terrier
+AMST_29567	American Staffordshire Terrier
+KERY_03174	Kerry Blue Terrier
+TIBT_03184	Tibetan Terrier
+TIBT_03185	Tibetan Terrier
+TIBT_03186	Tibetan Terrier
+TIBS_05379	Tibetan Spaniel
+TIBS_05380	Tibetan Spaniel
+TIBS_05381	Tibetan Spaniel
+TIBS_05382	Tibetan Spaniel
+TIBS_05383	Tibetan Spaniel
+AIRT_08387	Airedale Terrier
+AIRT_08388	Airedale Terrier
+KELP_09320	Kelpie
+KELP_09350	Kelpie
+AUCD_09994	Australian Cattle Dog
+KERY_12354	Kerry Blue Terrier
+SCWT_20516	Soft Coated Wheaten Terrier
+KERY_21525	Kerry Blue Terrier
+SCWT_22617	Soft Coated Wheaten Terrier
+SCWT_23325	Soft Coated Wheaten Terrier
+AUCD_25269	Australian Cattle Dog
+SCWT_25272	Soft Coated Wheaten Terrier
+AIRT_25288	Airedale Terrier
+TIBT_26260	Tibetan Terrier
+KERY_27113	Kerry Blue Terrier
+PUMI_29689	Pumi
+PUMI_29695	Pumi
+PUMI_29696	Pumi
+PUMI_29697	Pumi
+PUMI_29698	Pumi
+TIBT_30324	Tibetan Terrier
+MALT_37A01	Maltese
+MALT_37B01	Maltese
+MALT_37C01	Maltese
+MALT_37D01	Maltese
+MALT_37E01	Maltese
+MALT_37F01	Maltese
+MALT_37G01	Maltese
+MALT_37H01	Maltese
+TIBS_37H04	Tibetan Spaniel
+TIBS_37A05	Tibetan Spaniel
+TIBS_37B05	Tibetan Spaniel
+LHSA_38E10	Lhasa Apso
+BMAL_39E06	Belgian Malenois
+MXOL_Z1D01	Xoloitzcuintle - Miniature
+XOLO_Z1E01	Xoloitzcuintle
+XOLO_Z1G01	Xoloitzcuintle
+XOLO_Z1H01	Xoloitzcuintle
+MXOL_Z1C04	Xoloitzcuintle - Miniature
+BICH_Z1D09	Bichon Frise
+INCA_Z1G09	Peruvian Hairless dog
+INCA_Z1F10	Peruvian Hairless dog
+INCA_Z1E12	Peruvian Hairless dog
+XOLO_Z2A01	Xoloitzcuintle
+MXOL_Z2B01	Xoloitzcuintle - Miniature
+MXOL_Z2D01	Xoloitzcuintle - Miniature
+MXOL_Z2E01	Xoloitzcuintle - Miniature
+XOLO_Z2F01	Xoloitzcuintle
+INCA_Z2C03	Peruvian Hairless dog
+INCA_Z2E03	Peruvian Hairless dog
+INCA_Z2C05	Peruvian Hairless dog
+INCA_Z2D05	Peruvian Hairless dog
+INCA_Z2F05	Peruvian Hairless dog
+INCA_Z2H08	Peruvian Hairless dog
+CRES_Z4A01	Chinese Crested
+CRES_Z4B01	Chinese Crested
+CRES_Z4C01	Chinese Crested
+CRES_Z4D01	Chinese Crested
+CRES_Z4H01	Chinese Crested
+ICES_Z4E02	Icelandic Sheepdog
+BRUS_Z4F02	Brussels Griffon
+DALM_Z4A06	Dalmatian
+DALM_Z4C09	Dalmatian
+INCA_Z4A11	Peruvian Hairless dog
+DALM_Z5F08	Dalmatian
+CRES_Z5F09	Chinese Crested
+BRUS_Z5H09	Brussels Griffon
+DALM_Z5G10	Dalmatian
+DALM_Z5H10	Dalmatian
+CRES_Z5G11	Chinese Crested
+CRES_Z5H11	Chinese Crested
+CRES_Z5A12	Chinese Crested
+CRES_Z5B12	Chinese Crested
+AMST_Z6E09	American Staffordshire Terrier
+AMST_Z6A12	American Staffordshire Terrier
+AMST_Z7B01	American Staffordshire Terrier
+AMST_Z9A04	American Staffordshire Terrier
+BMAL_Z9B05	Belgian Malenois
+BMAL_Z9D10	Belgian Malenois
+BMAL_Z9G11	Belgian Malenois
+BMAL_Z9B12	Belgian Malenois
+BICH_10G01	Bichon Frise
+BICH_10H01	Bichon Frise
+SHIB_10G08	Shiba Inu
+SHIB_10H08	Shiba Inu
+SHIB_10A09	Shiba Inu
+SHIB_10B09	Shiba Inu
+SILK_10D09	Silky Terrier
+SILK_10E09	Silky Terrier
+WFOX_12D05	Wire Fox Terrier
+BICH_12E05	Bichon Frise
+WFOX_12F05	Wire Fox Terrier
+RHOD_12H05	Rhodesian Ridgeback
+BICH_12A06	Bichon Frise
+RHOD_12B06	Rhodesian Ridgeback
+WFOX_12C06	Wire Fox Terrier
+WFOX_12E06	Wire Fox Terrier
+WFOX_13E08	Wire Fox Terrier
+WFOX_13G08	Wire Fox Terrier
+BICH_13C09	Bichon Frise
+BICH_13D09	Bichon Frise
+BICH_13E09	Bichon Frise
+WFOX_13G09	Wire Fox Terrier
+ISET_13A10	Irish Setter
+BICH_13C10	Bichon Frise
+WFOX_13F10	Wire Fox Terrier
+ISET_13H10	Irish Setter
+RHOD_13C11	Rhodesian Ridgeback
+BICH_13G11	Bichon Frise
+RHOD_13H11	Rhodesian Ridgeback
+RHOD_13E12	Rhodesian Ridgeback
+CHIN_14B01	Japanese Chin
+CHIN_14F01	Japanese Chin
+AESK_14G01	American Eskimo Dog
+AESK_14D02	American Eskimo Dog
+CHIN_14F02	Japanese Chin
+LHSA_14H03	Lhasa Apso
+CHIN_14F04	Japanese Chin
+PULI_14E05	Puli
+PULI_14F06	Puli
+AESK_14E07	American Eskimo Dog
+AESK_14G07	American Eskimo Dog
+AESK_14D08	American Eskimo Dog
+LHSA_14E09	Lhasa Apso
+RHOD_14B10	Rhodesian Ridgeback
+LHSA_14D11	Lhasa Apso
+AESK_15D02	American Eskimo Dog
+KOMO_15G02	Komondor
+LHSA_15F04	Lhasa Apso
+AUCD_15C05	Australian Cattle Dog
+WFOX_15G05	Wire Fox Terrier
+AUCD_15C07	Australian Cattle Dog
+RHOD_15A08	Rhodesian Ridgeback
+TIBS_15A09	Tibetan Spaniel
+AUCD_15C09	Australian Cattle Dog
+AUCD_15D09	Australian Cattle Dog
+ISET_15B10	Irish Setter
+ISET_15F10	Irish Setter
+ISET_15A12	Irish Setter
+ISET_15E12	Irish Setter
+RHOD_15G12	Rhodesian Ridgeback
+BEDT_16E01	Bedlington Terrier
+BEDT_16B03	Bedlington Terrier
+SPIN_16E03	Spinone Italiano
+SILK_16G04	Silky Terrier
+GWHP_16E05	German Wirehaired Pointer
+OTTR_16B07	Otter Hound
+OTTR_16C07	Otter Hound
+SHIB_16C08	Shiba Inu
+TYFX_16G08	Toy Fox Terrier
+TYFX_16D09	Toy Fox Terrier
+SHIB_16D12	Shiba Inu
+SILK_17C01	Silky Terrier
+SHIB_17H01	Shiba Inu
+TYFX_17A02	Toy Fox Terrier
+OTTR_17C03	Otter Hound
+OTTR_17D03	Otter Hound
+OTTR_17H04	Otter Hound
+SHIB_17B05	Shiba Inu
+BEDT_17A06	Bedlington Terrier
+TYFX_17D06	Toy Fox Terrier
+SPIN_17A07	Spinone Italiano
+GWHP_17B10	German Wirehaired Pointer
+BOER_18F01	Boerboel
+TIBS_18H01	Tibetan Spaniel
+BMAL_18A03	Belgian Malenois
+LHSA_18D03	Lhasa Apso
+WFOX_18A04	Wire Fox Terrier
+LHSA_18E09	Lhasa Apso
+LHSA_18G09	Lhasa Apso
+LHSA_18C10	Lhasa Apso
+BOER_18F10	Boerboel
+AUCD_18G11	Australian Cattle Dog
+LHSA_19B01	Lhasa Apso
+AUCD_19H09	Australian Cattle Dog
+AUCD_19A10	Australian Cattle Dog
+ICES_21B07	Icelandic Sheepdog
+BOER_22A07	Boerboel
+BERD_25G02	Bearded Collie
+TIBT_26D12	Tibetan Terrier
+TIBT_26F12	Tibetan Terrier
+TIBT_26G12	Tibetan Terrier
+TIBT_26H12	Tibetan Terrier
+NORF_28A10	Norfolk Terrier
+NORF_28G10	Norfolk Terrier
+NORF_28B10	Norfolk Terrier
+NORF_28C10	Norfolk Terrier
+NORF_28D10	Norfolk Terrier
+NORF_28E10	Norfolk Terrier
+NORF_28F10	Norfolk Terrier
+CCRT_30E02	Curly Coated Retriever
+NORF_B11Ma	Norfolk Terrier
+NORF_C11Ca	Norfolk Terrier
+NORF_D11Li	Norfolk Terrier
+COOK_23320	Chinook
+COOK_31648	Chinook
+COOK_23575	Chinook
+COOK_30388	Chinook
+COOK_36118	Chinook
+COOK_36124	Chinook
+COOK_24136	Chinook
+COOK_24163	Chinook
+COOK_34324	Chinook
+COOK_34327	Chinook
+AUCD_31H04	Australian Cattle Dog
+BOUV_34E01	Bouvier des Flandres
+BOUV_34F01	Bouvier des Flandres
+BOUV_34G01	Bouvier des Flandres
+MNTY_34H04	Toy Manchester Terrier
+BOUV_34B06	Bouvier des Flandres
+BOUV_34C06	Bouvier des Flandres
+COTO_34E10	Coton du Tulear
+PHAR_34D11	Pharoah Hound
+PHAR_34E11	Pharoah Hound
+BERD_34H11	Bearded Collie
+TIBT_35G02	Tibetan Terrier
+KOMO_35C03	Komondor
+BOUV_35D03	Bouvier des Flandres
+BOUV_35E04	Bouvier des Flandres
+BOUV_35D07	Bouvier des Flandres
+REDB_35F11	Redbone Coonhound
+REDB_35B12	Redbone Coonhound
+BERD_35H12	Bearded Collie
+OTTR_36E04	Otter Hound
+OTTR_36F04	Otter Hound
+OTTR_36H04	Otter Hound
+OTTR_36A05	Otter Hound
+CCRT_42G05	Curly Coated Retriever
+RHOD_42D06	Rhodesian Ridgeback
+MNTY_43F07	Toy Manchester Terrier
+COTO_44G10	Coton du Tulear
+BPIC_SEQ01	Berger Picard
+BPIC_SEQ02	Berger Picard
+BPIC_SEQ03	Berger Picard
+SVAL_10447	Swedish Valhund
+SVAL_10600	Swedish Valhund
+SVAL_10043	Swedish Valhund
+SVAL_10069	Swedish Valhund
+SVAL_8343	Swedish Valhund
+SVAL_8407	Swedish Valhund
