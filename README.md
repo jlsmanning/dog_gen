@@ -1,6 +1,6 @@
 # Dog Breed Classifier
 
-A genetics-informed dog breed classification system implementing research on **error characterization in AI classification**. This project addresses the question: *"How wrong is wrong?"* - evaluating not just whether models are accurate, but how severe their errors are.
+A genetics-informed dog breed classification system implementing research on **error characterization in AI classification**. This project addresses the question: *"How wrong is wrong?"*  and how to evaluate not just whether models are accurate, but how severe their errors are.
 
 ## Research Background
 
@@ -10,13 +10,13 @@ This work was presented at the AI4SE & SE4AI Workshop 2022:
 
 ### Motivation
 
-Traditional ML evaluation focuses on accuracy, but for safety-critical applications (e.g., friend-or-foe identification in military systems), **the nature of errors matters**. Confusing similar fighter jets is less severe than confusing a fighter jet with a passenger plane.
+Traditional ML evaluation focuses on accuracy, but for safety-critical applications (e.g., friend-or-foe identification in military systems), **the nature of errors matters**. Confusing similar fighter jets might be less severe than confusing a fighter jet with a passenger plane. **How a model fails can matter as much as how often it fails.**
 
-This project uses dog breed classification as a case study to demonstrate error characterization using genetic distance between breeds.
+This project uses dog breed classification as a case study to demonstrate error characterization using genetic distance between breeds. Why dogs? Dogs come in many shapes and sizes even though they are all still the same species. Some breeds are easy to tell apart, while others can be very difficult to discriminate. There is also a ground truth available in the form of research into dog genetic relationships.
 
 ## Key Contributions
 
-1. **Error Magnitude Quantification**: Uses genetic distance matrix to measure "how bad" misclassifications are
+1. **Error Magnitude Quantification**: Uses genetic distance matrix to measure "how bad" misclassifications are, where "bad" is a large genetic difference.
 2. **Comparative Analysis**: Shows ResNet50 not only achieves higher accuracy (89.4% vs 76.1%) but also makes smaller errors (mean distance 0.390 vs 0.431, P=0.0002)
 3. **Genetics-Informed Loss**: Experimental loss function that incorporates genetic distances as soft labels to encourage "less wrong" predictions
 
@@ -28,7 +28,7 @@ This project uses dog breed classification as a case study to demonstrate error 
 - **ResNet18 + dist_loss**: Mean error distance 0.3057 (improved), but 3% accuracy drop
 
 ### Key Insight
-Deeper networks don't just classify better - they make more "forgivable" mistakes when they fail.
+Deeper networks don't just classify better; they can also make more "forgivable" mistakes when they fail.
 
 ## Real-World Applications
 
@@ -51,58 +51,18 @@ While this project uses dog breeds as a case study, the methodology generalizes 
 - **Fraud detection**: False positives on legitimate transactions vs. missing actual fraud
 - **Risk assessment**: Misclassifying risk levels within the same category vs. across categories
 
-### Why Dog Breeds?
+### How to implement with a different problem
 
-Dog breeds provide an ideal research testbed because:
+The main idea here, measuring how bad mistakes are using domain knowledge, applies directly to safety-critical work where some errors matter much more than others.
 
-1. **Ground truth hierarchy exists**: Genetic data provides quantifiable inter-class distances
-2. **Large-scale dataset available**: 20,580 images across 120 classes
-3. **Fine-grained classification**: Visually similar classes test model discrimination
-4. **No security restrictions**: Results are publishable and reproducible
-5. **Intuitive understanding**: Everyone grasps the concept of genetic relatedness
+1. **Define the hierarchy**: Identify the structure that defines "distance" between classes. 
 
-### Methodology Transfer
+2. **Quantify distances**: Create a distance matrix between classes,
 
-The core methodology demonstrated here - quantifying error severity using domain-specific hierarchies - transfers directly to safety-critical applications where not all misclassifications are equally problematic.
+3. **Evaluate error quality**: Use the distance metric to assess not just accuracy but error severity,
 
-**To apply this approach to your domain:**
+4. **Optional: Train with hierarchy awareness**: Incorporate distance information into loss functions. (As my the dog breed experiment showed, this can be a trade-off with accuracy)
 
-1. **Define your hierarchy**: Identify the structure that defines "distance" between classes
-   - For military: Threat assessment matrices, operational taxonomies
-   - For medical: Clinical severity scales, anatomical relationships
-   - For autonomous systems: Risk hierarchies, operational impact
-
-2. **Quantify distances**: Create a distance matrix between classes
-   - Can be based on domain expertise, operational data, or existing taxonomies
-   - Doesn't need to be genetic - any meaningful distance metric works
-
-3. **Evaluate error quality**: Use the distance metric to assess not just accuracy but error severity
-   - Analyze mean error distance
-   - Compare error distributions between models
-   - Make informed decisions about model deployment
-
-4. **Optional: Train with hierarchy awareness**: Incorporate distance information into loss functions
-   - Encourages models to make "less wrong" predictions
-   - Trade-offs between accuracy and error severity can be tuned for specific applications
-
-### From Research to Operations
-
-This work demonstrates that **how a model fails matters as much as how often it fails**. For systems engineering and certification of AI-integrated systems, understanding failure modes and error characteristics is essential for:
-
-- Risk assessment and mitigation
-- System certification and validation  
-- Operational decision-making
-- Human-AI teaming where humans need to understand AI limitations
-
-The dog breed classification case study provides a rigorous, reproducible demonstration of these principles that extends far beyond its initial domain.
-
-## Features
-
-- **Genetics-Informed Loss Function**: Uses genetic distance matrix to create soft labels, making the model aware of breed relationships
-- **Production-Ready**: Includes training, evaluation, inference API, and Docker deployment
-- **Comprehensive Analysis**: Tools for error analysis, embedding visualization, and statistical comparison
-- **RESTful API**: FastAPI-based serving with interactive documentation
-- **Modular Architecture**: Clean separation of concerns for easy maintenance and extension
 
 ## Project Structure
 
@@ -188,6 +148,7 @@ pip install -e .
    └── test/
        └── (same structure)
    ```
+   
 
 2. **Genetic Data**: Already included in `data/genetic_data/`:
    - `Breeds.txt` - Breed assignments for each sample
@@ -200,12 +161,12 @@ pip install -e .
    cp config/train_config.example.yaml config/train_config.yaml
    ```
 
-2. Edit `config/train_config.yaml` and update:
+2. If your data is not in the same directory, either edit `config/train_config.yaml` and update
    ```yaml
    paths:
-     dataset: '/path/to/your/images'  # Update this path
+     dataset: '/path/to/your/images'
    ```
-
+   or make a symlink called "images" in the main directory and link it to the dataset
 3. Run training:
    ```bash
    python training/train.py

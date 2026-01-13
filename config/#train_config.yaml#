@@ -1,6 +1,6 @@
 # Paths
 paths:
-  dataset: ${DATASET_PATH} # do 'export DATASET_PATH='/path/to/my/images''
+  dataset: './images/'
   genetic_data: './data/genetic_data/'
   output_dir: './outputs/'
   model_save_dir: './saved_models/'
