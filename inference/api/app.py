@@ -1,5 +1,6 @@
 """FastAPI application for dog breed classification."""
 
+from typing import List
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
@@ -9,7 +10,7 @@ import yaml
 from pathlib import Path
 
 from inference.predictor import load_predictor
-from inference.api.schemas import PredictionResponse, HealthResponse, ErrorResponse
+from inference.api.schemas import PredictionResponse, HealthResponse
 
 # Initialize FastAPI app
 app = FastAPI(
@@ -121,9 +122,9 @@ async def predict(
         raise HTTPException(status_code=500, detail=f"Prediction error: {str(e)}")
 
 
-@app.post("/predict_batch", response_model=list[PredictionResponse])
+@app.post("/predict_batch", response_model=List[PredictionResponse])
 async def predict_batch(
-    files: list[UploadFile] = File(...),
+    files: List[UploadFile] = File(...),
     top_k: int = 5
 ):
     """

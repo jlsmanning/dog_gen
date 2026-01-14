@@ -128,8 +128,10 @@ def analyze_errors(model, dataloader, class_names, genetic_names,
                         # Get exemplar for predicted class
                         pred_class = class_names[pred_idx]
                         exemplar_dir = exemplar_path / pred_class
-                        exemplar_file = list(exemplar_dir.glob('*'))[0]
-                        
+                        exemplar_file = next(exemplar_dir.glob('*'), None)
+                        if exemplar_file is None:
+                            continue
+
                         pred_img = Image.open(exemplar_file)
                         pred_img = transforms(pred_img).numpy().transpose(1, 2, 0)
                         pred_img = normalize_image(pred_img)
