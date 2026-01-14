@@ -84,7 +84,7 @@ class BreedClassifier(nn.Module):
         embedder = nn.Sequential(*modules)
         with torch.no_grad():
             embeddings = embedder(x)
-            # Flatten if needed
+            # Flatten spatial dimensions, preserving batch
             if len(embeddings.shape) > 2:
-                embeddings = embeddings.squeeze()
+                embeddings = embeddings.flatten(1)
         return embeddings
