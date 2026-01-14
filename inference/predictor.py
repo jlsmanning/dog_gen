@@ -165,7 +165,7 @@ def load_predictor(model_path, config_path, class_names_path=None, device='auto'
             from data.genetic_distance import GeneticDistanceMatrix
             gdm = GeneticDistanceMatrix(config['paths']['genetic_data'])
             genetic_names, _ = gdm.get_dist_mat(class_names)
-        except:
+        except Exception:
             genetic_names = class_names
     
     return BreedPredictor(model_path, config, class_names, genetic_names, device)
