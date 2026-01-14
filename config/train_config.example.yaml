@@ -1,0 +1,71 @@
+# Paths
+paths:
+  dataset: './images/'
+  genetic_data: './data/genetic_data/'
+  output_dir: './outputs/'
+  model_save_dir: './saved_models/'
+
+# Data configuration
+data:
+  batch_size: 32
+  num_workers: 4
+  image_size: 224
+  
+  # Data augmentation
+  augmentation:
+    train:
+      horizontal_flip: true
+      vertical_flip: true
+      rotation_degrees: 90
+      random_crop: true
+    
+    # ImageNet normalization
+    normalize:
+      mean: [0.485, 0.456, 0.406]
+      std: [0.229, 0.224, 0.225]
+
+# Model architecture
+model:
+  architecture: 'resnet18'  # Options: resnet18, resnet50
+  pretrained: true
+  pretrained_weights: 'IMAGENET1K_V1'  # for resnet18
+  # pretrained_weights: 'IMAGENET1K_V2'  # for resnet50
+
+# Training configuration
+training:
+  num_epochs: 20
+  loss_type: 'score_loss'  # Options: score_loss, dist_loss
+  
+  # For dist_loss only
+  label_threshold: 0.3  # threshold for soft labels
+  
+  # Optimizer
+  optimizer:
+    type: 'SGD'
+    lr: 0.001
+    momentum: 0.9
+  
+  # Learning rate scheduler
+  scheduler:
+    type: 'StepLR'
+    step_size: 5
+    gamma: 0.2
+  
+  # Device
+  device: 'auto'  # auto-detects cuda if available, otherwise cpu
+
+# Evaluation configuration
+evaluation:
+  save_error_visualizations: true
+  error_vis_dpi: 300
+  generate_histograms: true
+  
+# Experiment tracking
+experiment:
+  name: 'resnet18_score_loss'  # used for naming saved files, I used model_depth_loss_type because those were my main toggles
+  save_best_only: true
+  
+# Logging
+logging:
+  log_interval: 10  # batches
+  save_plots: true
