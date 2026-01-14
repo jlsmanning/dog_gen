@@ -47,21 +47,30 @@ def save_model(model, config, metrics, save_dir):
 def load_model(model_path, config, num_classes, device='cpu'):
     """
     Load a saved model.
-    
+
     Args:
         model_path: Path to saved model weights (.pth file)
         config: Configuration dictionary
         num_classes: Number of classes
         device: Device to load model on
-    
+
     Returns:
         Loaded model
     """
     model = get_model(config, num_classes)
-    model.load_state_dict(torch.load(model_path, map_location=device))
+    state_dict = torch.load(model_path, map_location=device)
+
+    # Handle legacy models that used Sequential wrapper on fc layer
+    if 'fc.0.weight' in state_dict and 'fc.weight' not in state_dict:
+        state_dict = {
+            k.replace('fc.0.', 'fc.') if k.startswith('fc.0.') else k: v
+            for k, v in state_dict.items()
+        }
+
+    model.load_state_dict(state_dict)
     model.to(device)
     model.eval()
-    
+
     print(f"Model loaded from {model_path}")
     return model
 
