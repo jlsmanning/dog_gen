@@ -1,9 +1,10 @@
 # Paths
 paths:
-  dataset: ${DATASET_PATH} # do 'export DATASET_PATH='/path/to/my/images''
+  dataset: './images/'
   genetic_data: './data/genetic_data/'
   output_dir: './outputs/'
   model_save_dir: './saved_models/'
+  exemplars: './data/exemplars/'
 
 # Data configuration
 data:
@@ -62,7 +63,7 @@ evaluation:
   
 # Experiment tracking
 experiment:
-  name: 'resnet18_score_loss'  # Will be used for naming saved files
+  name: 'resnet18_score_loss'  # used for naming saved files, I used model_depth_loss_type because those were my main toggles
   save_best_only: true
   
 # Logging
