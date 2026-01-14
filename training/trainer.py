@@ -161,7 +161,9 @@ class Trainer:
                     soft_labels = labels_to_soft_labels(labels.cpu(), self.soft_label_matrix)
                     soft_labels = torch.from_numpy(soft_labels).float().to(self.device)
                     loss = self.criterion(outputs, soft_labels)
-                
+                else:
+                    raise ValueError(f"Unknown loss type: {self.loss_type}")
+
                 # Track metrics
                 running_loss += loss.item() * batch_size
                 running_corrects += torch.sum(preds == labels.data)
