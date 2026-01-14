@@ -176,13 +176,21 @@ class GeneticDistanceMatrix:
         
         for i in range(n):
             imagenet_name = class_names[i]
-            genetic_name = DATA2GEN[imagenet_name]
+            genetic_name = DATA2GEN.get(imagenet_name)
+            if genetic_name is None:
+                raise KeyError(f"No genetic mapping for breed: {imagenet_name}")
             genetic_names.append(genetic_name)
+            if genetic_name not in genetic_breeds:
+                raise ValueError(f"Genetic breed '{genetic_name}' not found in distance data")
             idx_i = genetic_breeds.index(genetic_name)
-            
+
             for j in range(n):
                 imagenet_name_j = class_names[j]
-                genetic_name_j = DATA2GEN[imagenet_name_j]
+                genetic_name_j = DATA2GEN.get(imagenet_name_j)
+                if genetic_name_j is None:
+                    raise KeyError(f"No genetic mapping for breed: {imagenet_name_j}")
+                if genetic_name_j not in genetic_breeds:
+                    raise ValueError(f"Genetic breed '{genetic_name_j}' not found in distance data")
                 idx_j = genetic_breeds.index(genetic_name_j)
                 
                 dist_mat[i, j] = breed_dist_matrix[idx_i, idx_j]
