@@ -1,7 +1,8 @@
 # Inference configuration
 
 inference:
-  model_path: './saved_models/resnet18_score_loss_model.pth'
+  model_path: './saved_models/jlsm_resnet18_score_loss_model.pth'
+  class_names_path: './saved_models/class_names.json'
   device: 'auto'  # auto, cpu, or cuda
   batch_size: 1
   top_k: 5

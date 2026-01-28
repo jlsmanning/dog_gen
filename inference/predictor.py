@@ -51,11 +51,12 @@ class BreedPredictor:
         """
         # Convert to PIL Image if needed
         if isinstance(image_input, (str, Path)):
-            image = Image.open(image_input).convert('RGB')
+            with Image.open(image_input) as img:
+                image = img.convert('RGB').copy()
         elif isinstance(image_input, np.ndarray):
             image = Image.fromarray(image_input).convert('RGB')
         elif isinstance(image_input, Image.Image):
-            image = image.convert('RGB')
+            image = image_input.convert('RGB')
         else:
             raise ValueError(f"Unsupported image input type: {type(image_input)}")
         
@@ -86,13 +87,15 @@ class BreedPredictor:
         with torch.no_grad():
             outputs = self.model(image_tensor)
             probabilities = torch.nn.functional.softmax(outputs, dim=1)
-        
-        # Get top-k predictions
-        top_probs, top_indices = torch.topk(probabilities[0], top_k)
-        
+
+        # Get top-k predictions (ensure k doesn't exceed number of classes)
+        effective_top_k = min(top_k, len(self.class_names))
+        top_probs, top_indices = torch.topk(probabilities[0], effective_top_k)
+
         # Format results
         predictions = []
         for prob, idx in zip(top_probs.cpu().numpy(), top_indices.cpu().numpy()):
+            idx = int(idx)  # Convert numpy scalar to Python int
             predictions.append({
                 'class_name': self.class_names[idx],
                 'breed_name': self.genetic_names[idx],
@@ -126,46 +129,55 @@ class BreedPredictor:
 def load_predictor(model_path, config_path, class_names_path=None, device='auto'):
     """
     Convenience function to load a predictor.
-    
+
     Args:
         model_path: Path to saved model
         config_path: Path to config file
-        class_names_path: Optional path to class names file
+        class_names_path: Optional path to class names file (JSON or pickle)
         device: Device to use ('auto', 'cpu', or 'cuda')
-    
+
     Returns:
         Initialized BreedPredictor
     """
     import yaml
+    import json
     import pickle
-    
+
     # Load config
     with open(config_path, 'r') as f:
         config = yaml.safe_load(f)
-    
+
     # Setup device
     if device == 'auto':
         device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     else:
         device = torch.device(device)
-    
+
     # Load class names
     if class_names_path:
-        with open(class_names_path, 'rb') as f:
-            data = pickle.load(f)
-            class_names = data['class_names']
-            genetic_names = data.get('genetic_names', class_names)
+        class_names_path = Path(class_names_path)
+        if class_names_path.suffix == '.json':
+            with open(class_names_path, 'r') as f:
+                data = json.load(f)
+                class_names = data['class_names']
+                genetic_names = data.get('genetic_names', class_names)
+        else:
+            # Assume pickle format for backwards compatibility
+            with open(class_names_path, 'rb') as f:
+                data = pickle.load(f)
+                class_names = data['class_names']
+                genetic_names = data.get('genetic_names', class_names)
     else:
         # Try to infer from dataset
         from data.datasets import get_dataloaders
         _, class_names = get_dataloaders(config)
-        
+
         # Try to get genetic names
         try:
             from data.genetic_distance import GeneticDistanceMatrix
             gdm = GeneticDistanceMatrix(config['paths']['genetic_data'])
             genetic_names, _ = gdm.get_dist_mat(class_names)
-        except Exception:
+        except (FileNotFoundError, ValueError, KeyError):
             genetic_names = class_names
-    
+
     return BreedPredictor(model_path, config, class_names, genetic_names, device)

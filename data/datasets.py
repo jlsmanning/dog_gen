@@ -40,7 +40,7 @@ def get_dataloaders(config):
         
         # Get class names from training set
         if subset == 'train':
-            class_names = [dataset.classes[i] for i in range(len(dataset.classes))]
+            class_names = list(dataset.classes)
         
         # Create dataloader
         dataloaders[subset] = DataLoader(
@@ -71,7 +71,7 @@ def get_single_dataloader(path, config, shuffle=False):
     transforms = get_transforms(config)
     
     dataset = ImageFolder(path, transform=transforms['val'])
-    class_names = [dataset.classes[i] for i in range(len(dataset.classes))]
+    class_names = list(dataset.classes)
     
     dataloader = DataLoader(
         dataset,

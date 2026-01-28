@@ -111,39 +111,42 @@ class GeneticDistanceMatrix:
         
         samples_by_class = self.get_samples_by_class()
         sample_names, dist_all = self.get_dist_all()
-        
+
+        # Build O(1) lookup dictionary for sample indices
+        sample_index = {name: idx for idx, name in enumerate(sample_names)}
+
         breeds = list(samples_by_class.keys())
         n = len(breeds)
         mean_dist_matrix = np.zeros((n, n))
-        
+
         for i in range(n):
             breed1 = breeds[i]
             samples1 = samples_by_class[breed1]
-            
+
             for j in range(n):
                 breed2 = breeds[j]
                 samples2 = samples_by_class[breed2]
-                
+
                 total_dist = 0
                 count = 0
-                
+
                 if i == j:
                     # Within-breed distances
                     for x in range(len(samples1)):
-                        idx_a = sample_names.index(samples1[x])
+                        idx_a = sample_index[samples1[x]]
                         for y in range(x + 1, len(samples1)):
-                            idx_b = sample_names.index(samples1[y])
+                            idx_b = sample_index[samples1[y]]
                             total_dist += dist_all[idx_a, idx_b]
                             count += 1
                 else:
                     # Between-breed distances
                     for s1 in samples1:
-                        idx_a = sample_names.index(s1)
+                        idx_a = sample_index[s1]
                         for s2 in samples2:
-                            idx_b = sample_names.index(s2)
+                            idx_b = sample_index[s2]
                             total_dist += dist_all[idx_a, idx_b]
                             count += 1
-                
+
                 mean_dist_matrix[i, j] = total_dist / count if count > 0 else 0
         
         with open(self.dist_means_cache, 'wb') as f:
@@ -169,30 +172,33 @@ class GeneticDistanceMatrix:
                 return data[0], data[1]
         
         genetic_breeds, breed_dist_matrix = self.get_dist_means()
-        
+
+        # Build O(1) lookup dictionary for breed indices
+        breed_index = {name: idx for idx, name in enumerate(genetic_breeds)}
+
         n = len(class_names)
         dist_mat = np.zeros((n, n))
         genetic_names = []
-        
+
         for i in range(n):
             imagenet_name = class_names[i]
             genetic_name = DATA2GEN.get(imagenet_name)
             if genetic_name is None:
                 raise KeyError(f"No genetic mapping for breed: {imagenet_name}")
             genetic_names.append(genetic_name)
-            if genetic_name not in genetic_breeds:
+            if genetic_name not in breed_index:
                 raise ValueError(f"Genetic breed '{genetic_name}' not found in distance data")
-            idx_i = genetic_breeds.index(genetic_name)
+            idx_i = breed_index[genetic_name]
 
             for j in range(n):
                 imagenet_name_j = class_names[j]
                 genetic_name_j = DATA2GEN.get(imagenet_name_j)
                 if genetic_name_j is None:
                     raise KeyError(f"No genetic mapping for breed: {imagenet_name_j}")
-                if genetic_name_j not in genetic_breeds:
+                if genetic_name_j not in breed_index:
                     raise ValueError(f"Genetic breed '{genetic_name_j}' not found in distance data")
-                idx_j = genetic_breeds.index(genetic_name_j)
-                
+                idx_j = breed_index[genetic_name_j]
+
                 dist_mat[i, j] = breed_dist_matrix[idx_i, idx_j]
         
         with open(cache_file, 'wb') as f:
@@ -213,11 +219,13 @@ class GeneticDistanceMatrix:
         """
         soft_labels = threshold - dist_mat
         soft_labels[soft_labels < 0] = 0
-        
+
         # Normalize each row to sum to 1
         row_sums = soft_labels.sum(axis=1, keepdims=True)
+        # Avoid division by zero - if row sum is 0, set to 1 (will result in all zeros)
+        row_sums[row_sums == 0] = 1
         soft_labels = soft_labels / row_sums
-        
+
         return soft_labels
 
 

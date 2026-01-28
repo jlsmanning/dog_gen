@@ -36,28 +36,30 @@ predictor = None
 async def load_model():
     """Load model on startup."""
     global predictor
-    
+
     try:
         # Load from inference config
         config_path = Path("config/inference_config.yaml")
-        
+
         if not config_path.exists():
             print("Warning: inference_config.yaml not found, using train_config.yaml")
             config_path = Path("config/train_config.yaml")
-        
+
         with open(config_path, 'r') as f:
             config = yaml.safe_load(f)
-        
+
         model_path = Path(config['inference']['model_path'])
-        
+        class_names_path = config['inference'].get('class_names_path')
+
         print(f"Loading model from {model_path}...")
         predictor = load_predictor(
             model_path=model_path,
             config_path=config_path,
+            class_names_path=class_names_path,
             device=config['inference'].get('device', 'auto')
         )
         print("Model loaded successfully!")
-        
+
     except Exception as e:
         print(f"Error loading model: {e}")
         raise

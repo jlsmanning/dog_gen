@@ -39,7 +39,13 @@ class Trainer:
         # Setup optimizer
         self.optimizer = self._setup_optimizer()
         self.scheduler = self._setup_scheduler()
-        self.criterion = nn.CrossEntropyLoss()
+
+        # Setup loss function based on loss type
+        if self.loss_type == 'dist_loss':
+            # KLDivLoss for soft labels (expects log probabilities)
+            self.criterion = nn.KLDivLoss(reduction='batchmean')
+        else:
+            self.criterion = nn.CrossEntropyLoss()
         
         # Metrics tracking
         self.metrics_tracker = MetricsTracker()
@@ -108,17 +114,19 @@ class Trainer:
                 # Convert labels to soft labels
                 soft_labels = labels_to_soft_labels(labels.cpu(), self.soft_label_matrix)
                 soft_labels = torch.from_numpy(soft_labels).float().to(self.device)
-                loss = self.criterion(outputs, soft_labels)
+                # KLDivLoss expects log probabilities for input
+                log_probs = torch.nn.functional.log_softmax(outputs, dim=1)
+                loss = self.criterion(log_probs, soft_labels)
             else:
                 raise ValueError(f"Unknown loss type: {self.loss_type}")
-            
+
             # Backward pass
             loss.backward()
             self.optimizer.step()
-            
+
             # Track metrics
             running_loss += loss.item() * batch_size
-            running_corrects += torch.sum(preds == labels.data)
+            running_corrects += torch.sum(preds == labels)
             
             # Progress indicator
             if (batch_idx + 1) % 10 == 0 or (batch_idx + 1) == num_batches:
@@ -160,13 +168,15 @@ class Trainer:
                 elif self.loss_type == 'dist_loss':
                     soft_labels = labels_to_soft_labels(labels.cpu(), self.soft_label_matrix)
                     soft_labels = torch.from_numpy(soft_labels).float().to(self.device)
-                    loss = self.criterion(outputs, soft_labels)
+                    # KLDivLoss expects log probabilities for input
+                    log_probs = torch.nn.functional.log_softmax(outputs, dim=1)
+                    loss = self.criterion(log_probs, soft_labels)
                 else:
                     raise ValueError(f"Unknown loss type: {self.loss_type}")
 
                 # Track metrics
                 running_loss += loss.item() * batch_size
-                running_corrects += torch.sum(preds == labels.data)
+                running_corrects += torch.sum(preds == labels)
         
         epoch_loss = running_loss / total_samples
         epoch_acc = running_corrects.double() / total_samples
