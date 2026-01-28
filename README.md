@@ -61,7 +61,7 @@ The main idea here, measuring how bad mistakes are using domain knowledge, appli
 
 3. **Evaluate error quality**: Use the distance metric to assess not just accuracy but error severity,
 
-4. **Optional: Train with hierarchy awareness**: Incorporate distance information into loss functions. (As my the dog breed experiment showed, this can be a trade-off with accuracy)
+4. **Optional: Train with hierarchy awareness**: Incorporate distance information into loss functions. (As my dog breed experiment showed, this can be a trade-off with accuracy)
 
 
 ## Project Structure
@@ -114,8 +114,8 @@ dog-breed-classifier/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/dog-breed-classifier.git
-cd dog-breed-classifier
+git clone https://github.com/jlsmanning/dog_gen.git
+cd dog_gen
 ```
 
 2. Create virtual environment:

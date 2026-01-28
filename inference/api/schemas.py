@@ -28,3 +28,21 @@ class HealthResponse(BaseModel):
 class ErrorResponse(BaseModel):
     """Response model for error responses."""
     detail: str
+
+
+class ExemplarInfo(BaseModel):
+    """Information about an available exemplar."""
+    class_name: str
+    breed_name: str
+
+
+class ExemplarsResponse(BaseModel):
+    """Response model for exemplars list endpoint."""
+    count: int
+    exemplars: List[ExemplarInfo]
+
+
+class DemoResponse(BaseModel):
+    """Response model for demo endpoint."""
+    exemplar_used: ExemplarInfo
+    prediction: PredictionResponse

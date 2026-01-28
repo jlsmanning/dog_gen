@@ -13,6 +13,8 @@ services:
       - ../../saved_models:/app/saved_models:ro
       # Mount config
       - ../../config:/app/config:ro
+      # Mount exemplars for demo endpoints
+      - ../../data/exemplars:/app/data/exemplars:ro
     environment:
       - PYTHONUNBUFFERED=1
     restart: unless-stopped

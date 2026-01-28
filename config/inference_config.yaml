@@ -1,15 +1,16 @@
 # Inference configuration
 
 inference:
-  model_path: './saved_models/jlsm_resnet18_score_loss_model.pth'
+  model_path: './saved_models/jlsm_resnet50_dist_loss_model.pth'
   class_names_path: './saved_models/class_names.json'
+  exemplars_path: './data/exemplars'
   device: 'auto'  # auto, cpu, or cuda
   batch_size: 1
   top_k: 5
 
 # Model configuration (must match training config)
 model:
-  architecture: 'resnet18'
+  architecture: 'resnet50'
   pretrained: false  # Not needed for inference
 
 # Data configuration (for preprocessing)
