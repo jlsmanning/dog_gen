@@ -322,9 +322,12 @@ Once the server is running, visit:
 
 ### API Endpoints
 
-- `POST /predict` - Predict breed from single image
-- `POST /predict_batch` - Predict breeds from multiple images
+- `POST /predict` - Predict breed from uploaded image
+- `POST /predict_batch` - Predict breeds from multiple images (max 10)
 - `GET /health` - Health check and model status
+- `GET /demo` - Run prediction on a random exemplar image
+- `GET /exemplars` - List all available breeds for testing
+- `GET /predict_exemplar/{breed}` - Predict using a specific breed's exemplar (accepts breed name like "beagle" or "Golden Retriever")
 - `GET /` - API information
 
 ## Contributing
