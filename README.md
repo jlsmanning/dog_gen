@@ -2,6 +2,9 @@
 
 A genetics-informed dog breed classification system implementing research on **error characterization in AI classification**. This project addresses the question: *"How wrong is wrong?"*  and how to evaluate not just whether models are accurate, but how severe their errors are.
 
+## Live Demo
+Try the deployed model: https://jlsmanning-dog-gen-hf.hf.space/docs
+
 ## Research Background
 
 This work was presented at the AI4SE & SE4AI Workshop 2022:
