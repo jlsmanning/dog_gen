@@ -13,8 +13,9 @@ from pathlib import Path
 from inference.predictor import load_predictor
 from inference.api.schemas import (
     PredictionResponse, HealthResponse, ExemplarInfo,
-    ExemplarsResponse, DemoResponse
+    ExemplarsResponse, DemoResponse, ErrorAnalysis
 )
+import numpy as np
 
 # Initialize FastAPI app
 app = FastAPI(
@@ -35,12 +36,41 @@ app.add_middleware(
 # Global predictor (loaded on startup)
 predictor = None
 exemplars_path = None
+distance_matrix = None
+
+
+def compute_error_analysis(true_idx: int, pred_idx: int) -> ErrorAnalysis:
+    """Compute error severity based on genetic distance."""
+    if true_idx == pred_idx:
+        return ErrorAnalysis(
+            genetic_distance=0.0,
+            error_severity="correct",
+            description="Correct prediction"
+        )
+
+    dist = float(distance_matrix[true_idx, pred_idx])
+
+    if dist < 0.28:
+        severity = "minor"
+        description = "Minor error - genetically close breeds (note: genetic similarity may differ from visual similarity)"
+    elif dist < 0.35:
+        severity = "moderate"
+        description = "Moderate error - typical genetic distance between breeds"
+    else:
+        severity = "major"
+        description = "Major error - genetically distant breeds"
+
+    return ErrorAnalysis(
+        genetic_distance=dist,
+        error_severity=severity,
+        description=description
+    )
 
 
 @app.on_event("startup")
 async def load_model():
     """Load model on startup."""
-    global predictor, exemplars_path
+    global predictor, exemplars_path, distance_matrix
 
     try:
         # Load from inference config
@@ -63,6 +93,18 @@ async def load_model():
         else:
             print(f"Warning: Exemplars path {exemplars_path} not found")
             exemplars_path = None
+
+        # Load genetic distance matrix
+        distances_path = Path(config['inference'].get('distances_path', 'saved_models/genetic_distances.json'))
+        if distances_path.exists():
+            import json
+            with open(distances_path, 'r') as f:
+                dist_data = json.load(f)
+            distance_matrix = np.array(dist_data['distance_matrix'])
+            print(f"Genetic distance matrix loaded ({distance_matrix.shape})")
+        else:
+            print(f"Warning: Distance matrix {distances_path} not found - error analysis disabled")
+            distance_matrix = None
 
         print(f"Loading model from {model_path}...")
         predictor = load_predictor(
@@ -167,12 +209,20 @@ async def demo():
 
         result = predictor.predict(image, top_k=5)
 
+        # Get predicted class index for error analysis
+        pred_class_name = result['top_prediction']['class_name']
+        pred_idx = predictor.class_names.index(pred_class_name)
+
+        # Compute error analysis
+        error_analysis = compute_error_analysis(idx, pred_idx)
+
         return DemoResponse(
             exemplar_used=ExemplarInfo(
                 class_name=class_name,
                 breed_name=predictor.genetic_names[idx]
             ),
-            prediction=PredictionResponse(**result)
+            prediction=PredictionResponse(**result),
+            error_analysis=error_analysis
         )
 
     except Exception as e:
@@ -236,12 +286,20 @@ async def predict_exemplar(breed: str, top_k: int = 5):
 
         result = predictor.predict(image, top_k=top_k)
 
+        # Get predicted class index for error analysis
+        pred_class_name = result['top_prediction']['class_name']
+        pred_idx = predictor.class_names.index(pred_class_name)
+
+        # Compute error analysis
+        error_analysis = compute_error_analysis(found_idx, pred_idx)
+
         return DemoResponse(
             exemplar_used=ExemplarInfo(
                 class_name=found_class,
                 breed_name=predictor.genetic_names[found_idx]
             ),
-            prediction=PredictionResponse(**result)
+            prediction=PredictionResponse(**result),
+            error_analysis=error_analysis
         )
 
     except Exception as e:

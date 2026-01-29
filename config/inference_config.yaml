@@ -3,6 +3,7 @@
 inference:
   model_path: './saved_models/jlsm_resnet50_dist_loss_model.pth'
   class_names_path: './saved_models/class_names.json'
+  distances_path: './saved_models/genetic_distances.json'
   exemplars_path: './data/exemplars'
   device: 'auto'  # auto, cpu, or cuda
   batch_size: 1

@@ -42,7 +42,15 @@ class ExemplarsResponse(BaseModel):
     exemplars: List[ExemplarInfo]
 
 
+class ErrorAnalysis(BaseModel):
+    """Error severity analysis based on genetic distance."""
+    genetic_distance: float
+    error_severity: str  # "correct", "minor", "moderate", "major"
+    description: str
+
+
 class DemoResponse(BaseModel):
     """Response model for demo endpoint."""
     exemplar_used: ExemplarInfo
     prediction: PredictionResponse
+    error_analysis: ErrorAnalysis
